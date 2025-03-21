@@ -1,7 +1,7 @@
-using UnityEngine;
 using System;
+using UnityEngine;
 
-namespace WAAS
+namespace WAAS.Entities
 {
     /// <summary>
     /// Class <c>PlayerLight</c> is a script that manages the player's light.
@@ -38,7 +38,7 @@ namespace WAAS
         /// <param name="amount">The amount of light to increase.</param>
         public void RestoreLight(int amount)
         {
-            _currentLight = Mathf.Min(_currentLight + amount, maxLight);
+            _currentLight = Mathf.Clamp(_currentLight + amount, 0, maxLight);
             OnLightChanged?.Invoke(_currentLight, maxLight);
         }
 

@@ -1,8 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Serialization;
 
-namespace WAAS
+namespace WAAS.Entities
 {
     /// <summary>
     /// Class <c>PlayerMovement</c> is a script that allows the player to move the character.

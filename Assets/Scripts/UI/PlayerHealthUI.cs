@@ -1,8 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using WAAS.Entities;
 
-namespace WAAS
+namespace WAAS.UI
 {
     /// <summary>
     /// Class <c>PlayerHealthUI</c> manages the UI elements related to the player's health.
@@ -17,18 +18,19 @@ namespace WAAS
         [SerializeField]
         private TextMeshProUGUI healthText;
         
-        /// <value>Property <c>_playerHealth</c> represents the PlayerHealth component attached to the player GameObject.</value>
-        private PlayerHealth _playerHealth;
+        /// <value>Property <c>playerHealth</c> represents the PlayerHealth component attached to the player GameObject.</value>
+        [SerializeField]
+        private PlayerHealth playerHealth;
 
         /// <summary>
         /// Method <c>Start</c> is called before the first frame update.
         /// </summary>
         private void Start()
         {
-            _playerHealth = GetComponent<PlayerHealth>();
-            if (_playerHealth != null)
-                _playerHealth.OnHealthChanged += UpdateHealthBar;
-            UpdateHealthBar(_playerHealth.CurrentHealth, _playerHealth.MaxHealth);
+            if (playerHealth == null)
+                playerHealth = FindFirstObjectByType<PlayerHealth>();
+            playerHealth.OnHealthChanged += UpdateHealthBar;
+            UpdateHealthBar(playerHealth.CurrentHealth, playerHealth.MaxHealth);
         }
 
         /// <summary>
@@ -36,9 +38,8 @@ namespace WAAS
         /// </summary>
         private void OnDestroy()
         {
-            if (_playerHealth == null)
-                return;
-            _playerHealth.OnHealthChanged -= UpdateHealthBar;
+            if (playerHealth != null)
+                playerHealth.OnHealthChanged -= UpdateHealthBar;
         }
 
         /// <summary>

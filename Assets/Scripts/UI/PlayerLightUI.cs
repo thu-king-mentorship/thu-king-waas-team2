@@ -1,8 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using WAAS.Entities;
 
-namespace WAAS
+namespace WAAS.UI
 {
     /// <summary>
     /// Class <c>PlayerLightUI</c> manages the UI elements related to the player's light.
@@ -17,18 +18,19 @@ namespace WAAS
         [SerializeField]
         private TextMeshProUGUI lightText;
         
-        /// <value>Property <c>_playerLight</c> represents the PlayerLight component attached to the player GameObject.</value>
-        private PlayerLight _playerLight;
+        /// <value>Property <c>playerLight</c> represents the PlayerLight component attached to the player GameObject.</value>
+        [SerializeField]
+        private PlayerLight playerLight;
 
         /// <summary>
         /// Method <c>Start</c> is called before the first frame update.
         /// </summary>
         private void Start()
         {
-            _playerLight = GetComponent<PlayerLight>();
-            if (_playerLight != null)
-                _playerLight.OnLightChanged += UpdateLightBar;
-            UpdateLightBar(_playerLight.CurrentLight, _playerLight.MaxLight);
+            if (playerLight == null)
+                playerLight = FindFirstObjectByType<PlayerLight>();
+            playerLight.OnLightChanged += UpdateLightBar;
+            UpdateLightBar(playerLight.CurrentLight, playerLight.MaxLight);
         }
 
         /// <summary>
@@ -36,9 +38,8 @@ namespace WAAS
         /// </summary>
         private void OnDestroy()
         {
-            if (_playerLight == null)
-                return;
-            _playerLight.OnLightChanged -= UpdateLightBar;
+            if (playerLight != null)
+                playerLight.OnLightChanged -= UpdateLightBar;
         }
 
         /// <summary>

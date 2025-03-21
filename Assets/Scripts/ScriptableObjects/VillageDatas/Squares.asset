@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c577aa52f2b1db4cbc24a6c6a7e1559, type: 3}
+  m_Name: Squares
+  m_EditorClassIdentifier: 
+  villageName: Squares
+  startingKarma: 0
+  nextVillage: {fileID: 11400000, guid: 26a9d03b23f138d4e8b4d88d42663864, type: 2}

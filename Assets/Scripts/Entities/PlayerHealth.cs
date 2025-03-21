@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace WAAS
+namespace WAAS.Entities
 {
     /// <summary>
     /// Class <c>PlayerHealth</c> is a script that manages the player's health.
@@ -40,7 +40,7 @@ namespace WAAS
         /// </summary>
         public void Heal(int amount)
         {
-            _currentHealth = Mathf.Min(_currentHealth + amount, maxHealth);
+            _currentHealth = Mathf.Clamp(_currentHealth + amount, 0, maxHealth);
             OnHealthChanged?.Invoke(_currentHealth, maxHealth);
         }
 
