@@ -80,7 +80,7 @@ namespace WAAS.Managers
             if (!_villageKarma.ContainsKey(village))
                 return;
             _villageKarma[village] = Mathf.Clamp(_villageKarma[village] + amount, minKarma, maxKarma);
-            Debug.Log($"{village.villageName} karma: {_villageKarma[village]}");
+            DebugLogManager.Instance.Log($"{village.villageName} karma: {_villageKarma[village]}");
             OnKarmaChanged?.Invoke(village, _villageKarma[village]);
         }
     }

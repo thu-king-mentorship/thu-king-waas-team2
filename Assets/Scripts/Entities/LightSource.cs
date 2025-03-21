@@ -78,13 +78,13 @@ namespace WAAS.Entities
             
             if (_playerLight.CurrentLight < lightChangeAmount)
             {
-                Debug.Log("Not enough light to give!");
+                DebugLogManager.Instance.Log("Not enough light to give!");
                 return;
             }
             _playerLight.UseLight(lightChangeAmount);
             sourceLight += lightChangeAmount;
             ModifyKarma(karmaChangeAmount);
-            Debug.Log($"Gave light! {village.villageName}'s light source now has {lightChangeAmount}. Player Light: {_playerLight.CurrentLight}");
+            DebugLogManager.Instance.Log($"Gave light! {village.villageName}'s light source now has {lightChangeAmount}. Player Light: {_playerLight.CurrentLight}");
 
         }
 
@@ -98,18 +98,18 @@ namespace WAAS.Entities
             
             if (sourceLight <= lightChangeAmount)
             {
-                Debug.Log("Not enough light to extract!");
+                DebugLogManager.Instance.Log("Not enough light to extract!");
                 return;
             }
             if (_playerLight.CurrentLight == _playerLight.MaxLight)
             {
-                Debug.Log("Player light is full!");
+                DebugLogManager.Instance.Log("Player light is full!");
                 return;
             }
             _playerLight.RestoreLight(lightChangeAmount);
             sourceLight -= lightChangeAmount;
             ModifyKarma(-karmaChangeAmount);
-            Debug.Log($"Extracted light! {village.villageName}'s light source now has {lightChangeAmount}. Player Light: {_playerLight.CurrentLight}");
+            DebugLogManager.Instance.Log($"Extracted light! {village.villageName}'s light source now has {lightChangeAmount}. Player Light: {_playerLight.CurrentLight}");
         }
 
         /// <summary>

@@ -39,7 +39,7 @@ namespace WAAS.Managers
         {
             CurrentVillage = village;
             OnVillageChanged?.Invoke(village);
-            Debug.Log($"Current Village set to: {village.villageName}");
+            DebugLogManager.Instance.Log($"Current Village set to: {village.villageName}");
         }
     }
 }

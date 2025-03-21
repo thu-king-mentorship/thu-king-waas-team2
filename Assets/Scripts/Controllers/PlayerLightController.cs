@@ -52,7 +52,7 @@ namespace WAAS.Controllers
             var t = (float)(karmaValue - KarmaManager.Instance.MinKarma) / (KarmaManager.Instance.MaxKarma - KarmaManager.Instance.MinKarma);
             playerLight.range = Mathf.Lerp(minLightRange, maxLightRange, t);
 
-            Debug.Log($"Player Light updated: Karma = {karmaValue}, Light Range = {playerLight.range}");
+            DebugLogManager.Instance.Log($"Player Light updated: Karma = {karmaValue}, Light Range = {playerLight.range}");
         }
     }
 }
