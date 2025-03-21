@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 namespace WAAS
 {
@@ -10,7 +11,14 @@ namespace WAAS
     {
         /// <value>Property <c>moveSpeed</c> represents the speed at which the player moves.</value>
         [SerializeField]
-        private float moveSpeed = 5.0f;
+        private float maxMoveSpeed = 5.0f;
+        
+        /// <value>Property <c>minMoveSpeed</c> represents the minimum speed at which the player moves.</value>
+        [SerializeField]
+        private float minMoveSpeed = 1.0f;
+        
+        /// <value>Property <c>_currentMoveSpeed</c> represents the current speed at which the player moves.</value>
+        private float _currentMoveSpeed;
 
         /// <value>Property <c>_moveInput</c> represents the input from the player to move the character.</value>
         private Vector2 _moveInput;
@@ -23,6 +31,9 @@ namespace WAAS
         
         /// <value>Property <c>_playerHealth</c> represents the PlayerHealth component attached to the player GameObject.</value>
         private PlayerHealth _playerHealth;
+        
+        /// <value>Property <c>_playerLight</c> represents the PlayerLight component attached to the player GameObject.</value>
+        private PlayerLight _playerLight;
 
         /// <summary>
         /// Method <c>Awake</c> is called when the script instance is being loaded.
@@ -30,6 +41,7 @@ namespace WAAS
         private void Awake()
         {
             _controller = GetComponent<CharacterController>();
+            _currentMoveSpeed = maxMoveSpeed;
         }
         
         /// <summary>
@@ -39,6 +51,8 @@ namespace WAAS
         {
             _playerHealth = GetComponent<PlayerHealth>();
             _playerHealth.OnDeath += HandleDeath;
+            _playerLight = GetComponent<PlayerLight>();
+            _playerLight.OnLightChanged += AdjustSpeedToLight;
         }
 
         /// <summary>
@@ -48,6 +62,8 @@ namespace WAAS
         {
             if (_playerHealth != null)
                 _playerHealth.OnDeath -= HandleDeath;
+            if (_playerLight != null)
+                _playerLight.OnLightChanged -= AdjustSpeedToLight;
         }
 
         /// <summary>
@@ -67,7 +83,7 @@ namespace WAAS
         private void Update()
         {
             var isoDirection = new Vector3(_moveInput.x + _moveInput.y, 0, _moveInput.y - _moveInput.x).normalized;
-            _controller.Move(isoDirection * (moveSpeed * Time.deltaTime));
+            _controller.Move(isoDirection * (_currentMoveSpeed * Time.deltaTime));
         }
 
         /// <summary>
@@ -76,6 +92,14 @@ namespace WAAS
         private void HandleDeath()
         {
             _movementEnabled = false;
+        }
+
+        /// <summary>
+        /// Method <c>AdjustSpeedToLight</c> adjusts the player's speed based on their light.
+        /// </summary>
+        private void AdjustSpeedToLight(int currentLight, int maxLight)
+        {
+            _currentMoveSpeed = Mathf.Lerp(minMoveSpeed, maxMoveSpeed, (float)currentLight / maxLight);
         }
     }
 }
