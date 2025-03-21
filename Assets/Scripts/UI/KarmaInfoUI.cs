@@ -7,9 +7,9 @@ using WAAS.ScriptableObjects;
 namespace WAAS.UI
 {
     /// <summary>
-    /// Class <c>PlayerKarmaUI</c> is a script that manages the karma UI.
+    /// Class <c>KarmaInfoUI</c> is a script that manages the karma UI.
     /// </summary>
-    public class PlayerKarmaUI : MonoBehaviour
+    public class KarmaInfoUI : MonoBehaviour
     {
         /// <value>Property <c>karmaUIPrefab</c> represents the prefab of the karma UI.</value>
         [SerializeField]
@@ -27,8 +27,8 @@ namespace WAAS.UI
         /// </summary>
         private void Start()
         {
-            GenerateKarmaUI();
             KarmaManager.Instance.OnKarmaChanged += UpdateKarmaUI;
+            GenerateKarmaUI();
         }
         
         /// <summary>
@@ -59,13 +59,15 @@ namespace WAAS.UI
         /// Method <c>UpdateKarmaUI</c> updates the karma UI of the village with the specified index.
         /// </summary>
         /// <param name="village">The village.</param>
-        /// <param name="karmaValue">The karma value.</param>
-        private void UpdateKarmaUI(VillageData village, int karmaValue)
+        /// <param name="currentKarma">The karma value.</param>
+        /// <param name="minKarma">The minimum karma.</param>
+        /// <param name="maxKarma">The maximum karma.</param>
+        private void UpdateKarmaUI(VillageData village, int currentKarma, int minKarma, int maxKarma)
         {
             if (!_villageUIMap.TryGetValue(village, out var uiEntry))
                 return;
             var villageKarmaText = uiEntry.transform.Find("VillageKarma").GetComponent<TextMeshProUGUI>();
-            villageKarmaText.text = karmaValue.ToString();
+            villageKarmaText.text = currentKarma.ToString();
         }
     }
 }

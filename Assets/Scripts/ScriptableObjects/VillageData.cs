@@ -15,6 +15,6 @@ namespace WAAS.ScriptableObjects
         public int startingKarma;
 
         /// <value>Property <c>nextVillage</c> represents the next village in the sequence.</value>
-        public VillageData nextVillage; // The next village in the sequence
+        public VillageData nextVillage;
     }
 }

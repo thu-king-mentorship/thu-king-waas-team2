@@ -12,7 +12,7 @@ namespace WAAS.Entities
         private int lightIncrease = 1;
         
         /// <value>Property <c>_playerLight</c> represents the PlayerLight component attached to the player GameObject.</value>
-        private PlayerLight _playerLight;
+        private CharacterLight _playerLight;
         
         /// <summary>
         /// Method <c>Update</c> is called once per frame.
@@ -31,7 +31,7 @@ namespace WAAS.Entities
         {
             if (!other.CompareTag("Player"))
                 return;
-            _playerLight = other.GetComponent<PlayerLight>();
+            _playerLight = other.GetComponent<CharacterLight>();
         }
         
         /// <summary>

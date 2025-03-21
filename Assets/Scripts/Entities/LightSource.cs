@@ -12,7 +12,7 @@ namespace WAAS.Entities
 
         /// <value>Property <c>sourceLight</c> represents how many light the light source has.</value>
         [SerializeField]
-        private int sourceLight = 50;
+        private int sourceLight = 100;
 
         /// <value>Property <c>lightChangeAmount</c> represents the amount of light to give or extract.</value>
         [SerializeField]
@@ -26,7 +26,7 @@ namespace WAAS.Entities
         private bool _playerInRange;
         
         /// <value>Property <c>_playerLight</c> represents the PlayerLight component attached to the player GameObject.</value>
-        private PlayerLight _playerLight;
+        private CharacterLight _playerLight;
 
         /// <summary>
         /// Method <c>OnTriggerEnter</c> is called when the Collider other enters the trigger.
@@ -37,7 +37,7 @@ namespace WAAS.Entities
             if (!other.CompareTag("Player"))
                 return;
             _playerInRange = true;
-            _playerLight = other.GetComponent<PlayerLight>();
+            _playerLight = other.GetComponent<CharacterLight>();
         }
 
         /// <summary>
@@ -71,7 +71,7 @@ namespace WAAS.Entities
         /// <summary>
         /// Method <c>OnGiveLight</c> is called when the player gives light to the light source.
         /// </summary>
-        public void OnGiveLight()
+        private void OnGiveLight()
         {
             if (!_playerInRange || _playerLight == null)
                 return;
@@ -84,14 +84,14 @@ namespace WAAS.Entities
             _playerLight.UseLight(lightChangeAmount);
             sourceLight += lightChangeAmount;
             ModifyKarma(karmaChangeAmount);
-            DebugLogManager.Instance.Log($"Gave light! {village.villageName}'s light source now has {lightChangeAmount}. Player Light: {_playerLight.CurrentLight}");
+            DebugLogManager.Instance.Log($"{village.villageName}'s given {lightChangeAmount}, has: {sourceLight}");
 
         }
 
         /// <summary>
         /// Method <c>OnExtractLight</c> is called when the player extracts light from the light source.
         /// </summary>
-        public void OnExtractLight()
+        private void OnExtractLight()
         {
             if (!_playerInRange || _playerLight == null)
                 return;
@@ -109,7 +109,7 @@ namespace WAAS.Entities
             _playerLight.RestoreLight(lightChangeAmount);
             sourceLight -= lightChangeAmount;
             ModifyKarma(-karmaChangeAmount);
-            DebugLogManager.Instance.Log($"Extracted light! {village.villageName}'s light source now has {lightChangeAmount}. Player Light: {_playerLight.CurrentLight}");
+            DebugLogManager.Instance.Log($"{village.villageName}'s extracted {lightChangeAmount}, has: {sourceLight}");
         }
 
         /// <summary>

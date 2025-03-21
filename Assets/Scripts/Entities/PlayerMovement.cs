@@ -31,10 +31,10 @@ namespace WAAS.Entities
         private CharacterController _controller;
         
         /// <value>Property <c>_playerHealth</c> represents the PlayerHealth component attached to the player GameObject.</value>
-        private PlayerHealth _playerHealth;
+        private CharacterHealth _playerHealth;
         
         /// <value>Property <c>_playerLight</c> represents the PlayerLight component attached to the player GameObject.</value>
-        private PlayerLight _playerLight;
+        private CharacterLight _playerLight;
 
         /// <value>Property <c>animator</c> represents the Animator component attached to the player GameObject.</value>
         [SerializeField]
@@ -51,6 +51,8 @@ namespace WAAS.Entities
         /// </summary>
         private void Awake()
         {
+            _playerHealth = GetComponent<CharacterHealth>();
+            _playerLight = GetComponent<CharacterLight>();
             _controller = GetComponent<CharacterController>();
             if (animator == null)
                 animator = GetComponentInChildren<Animator>();
@@ -62,9 +64,7 @@ namespace WAAS.Entities
         /// </summary>
         private void Start()
         {
-            _playerHealth = GetComponent<PlayerHealth>();
             _playerHealth.OnDeath += HandleDeath;
-            _playerLight = GetComponent<PlayerLight>();
             _playerLight.OnLightChanged += AdjustSpeedToLight;
         }
 

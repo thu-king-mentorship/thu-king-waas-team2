@@ -43,16 +43,16 @@ namespace WAAS.Controllers
         /// Method <c>UpdateLightRange</c> updates the player's light range based on their karma in the current village.
         /// </summary>
         /// <param name="village">The current village.</param>
-        /// <param name="karmaValue">The karma value of the village.</param>
-        private void UpdateLightRange(VillageData village, int karmaValue)
+        /// <param name="currentKarma">The karma value of the village.</param>
+        /// <param name="minKarma">The minimum karma value of the village.</param>
+        /// <param name="maxKarma">The maximum karma value of the village.</param>
+        private void UpdateLightRange(VillageData village, int currentKarma, int minKarma, int maxKarma)
         {
-            if (village != GameManager.Instance.CurrentVillage)
+            if (village != VillageManager.Instance.CurrentVillage)
                 return;
-
-            var t = (float)(karmaValue - KarmaManager.Instance.MinKarma) / (KarmaManager.Instance.MaxKarma - KarmaManager.Instance.MinKarma);
+            var t = (float)(currentKarma - minKarma) / (maxKarma - minKarma);
             playerLight.range = Mathf.Lerp(minLightRange, maxLightRange, t);
-
-            DebugLogManager.Instance.Log($"Player Light updated: Karma = {karmaValue}, Light Range = {playerLight.range}");
+            DebugLogManager.Instance.Log($"Light range: {playerLight.range}");
         }
     }
 }

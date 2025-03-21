@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using WAAS.ScriptableObjects;
@@ -19,6 +20,11 @@ namespace WAAS.Managers
         /// <value>Property <c>Villages</c> represents the list of villages.</value>
         public IReadOnlyList<VillageData> Villages => villages;
         
+        /// <value>Property <c>CurrentVillage</c> represents the current village.</value>
+        public VillageData CurrentVillage { get; private set; }
+        
+        public event Action<VillageData> OnVillageChanged;
+        
         /// <summary>
         /// Method <c>Awake</c> is called when the script instance is being loaded.
         /// </summary>
@@ -31,6 +37,17 @@ namespace WAAS.Managers
             }
             Instance = this;
             DontDestroyOnLoad(gameObject);
+        }
+        
+        /// <summary>
+        /// Method <c>SetCurrentVillage</c> sets the current village.
+        /// </summary>
+        /// <param name="village">The village.</param>
+        public void SetCurrentVillage(VillageData village)
+        {
+            CurrentVillage = village;
+            DebugLogManager.Instance.Log($"Village: {village.villageName}");
+            OnVillageChanged?.Invoke(village);
         }
     }
 }

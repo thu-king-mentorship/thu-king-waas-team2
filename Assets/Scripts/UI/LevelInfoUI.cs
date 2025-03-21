@@ -18,7 +18,7 @@ namespace WAAS.UI
         /// </summary>
         public void Start()
         {
-            GameManager.Instance.OnVillageChanged += UpdateLevelName;
+            VillageManager.Instance.OnVillageChanged += UpdateLevelName;
         }
         
         /// <summary>
@@ -26,7 +26,7 @@ namespace WAAS.UI
         /// </summary>
         public void OnDestroy()
         {
-            GameManager.Instance.OnVillageChanged -= UpdateLevelName;
+            VillageManager.Instance.OnVillageChanged -= UpdateLevelName;
         }
         
         /// <summary>

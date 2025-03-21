@@ -20,17 +20,14 @@ namespace WAAS.UI
         
         /// <value>Property <c>playerHealth</c> represents the PlayerHealth component attached to the player GameObject.</value>
         [SerializeField]
-        private PlayerHealth playerHealth;
+        private CharacterHealth playerHealth;
 
         /// <summary>
         /// Method <c>Start</c> is called before the first frame update.
         /// </summary>
         private void Start()
         {
-            if (playerHealth == null)
-                playerHealth = FindFirstObjectByType<PlayerHealth>();
             playerHealth.OnHealthChanged += UpdateHealthBar;
-            UpdateHealthBar(playerHealth.CurrentHealth, playerHealth.MaxHealth);
         }
 
         /// <summary>

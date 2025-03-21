@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using WAAS.ScriptableObjects;
 
@@ -9,7 +10,7 @@ namespace WAAS.Managers
     public class LevelManager : MonoBehaviour
     {
         /// <value>Property <c>Instance</c> represents the singleton instance of the LevelManager.</value>
-        public static LevelManager Instance { get; private set; }
+        private static LevelManager Instance { get; set; }
 
         /// <value>Property <c>village</c> represents the village represented by the level.</value>
         [SerializeField]
@@ -33,7 +34,17 @@ namespace WAAS.Managers
         /// </summary>
         private void Start()
         {
-            GameManager.Instance.SetCurrentVillage(village);
+            StartCoroutine(ImmediatelyAfterStart());
+        }
+        
+        /// <summary>
+        /// Method <c>ImmediatelyAfterStart</c> is called in the frame immediately after the first frame.
+        /// </summary>
+        /// <returns></returns>
+        private IEnumerator ImmediatelyAfterStart()
+        {
+            yield return null;
+            VillageManager.Instance.SetCurrentVillage(village);
         }
     }
 }

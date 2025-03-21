@@ -20,17 +20,14 @@ namespace WAAS.UI
         
         /// <value>Property <c>playerLight</c> represents the PlayerLight component attached to the player GameObject.</value>
         [SerializeField]
-        private PlayerLight playerLight;
+        private CharacterLight playerLight;
 
         /// <summary>
         /// Method <c>Start</c> is called before the first frame update.
         /// </summary>
         private void Start()
         {
-            if (playerLight == null)
-                playerLight = FindFirstObjectByType<PlayerLight>();
             playerLight.OnLightChanged += UpdateLightBar;
-            UpdateLightBar(playerLight.CurrentLight, playerLight.MaxLight);
         }
 
         /// <summary>
