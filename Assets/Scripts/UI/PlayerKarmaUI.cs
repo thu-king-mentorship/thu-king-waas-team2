@@ -1,18 +1,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using WAAS.Managers;
 using WAAS.ScriptableObjects;
 
-namespace WAAS.Managers
+namespace WAAS.UI
 {
     /// <summary>
-    /// Class <c>KarmaUIManager</c> is a script that manages the karma UI.
+    /// Class <c>PlayerKarmaUI</c> is a script that manages the karma UI.
     /// </summary>
-    public class KarmaUIManager : MonoBehaviour
+    public class PlayerKarmaUI : MonoBehaviour
     {
-        /// <value>Property <c>Instance</c> represents the singleton instance of the KarmaUIManager.</value>
-        public static KarmaUIManager Instance { get; private set; }
-        
         /// <value>Property <c>karmaUIPrefab</c> represents the prefab of the karma UI.</value>
         [SerializeField]
         private GameObject karmaUIPrefab;
@@ -23,19 +21,6 @@ namespace WAAS.Managers
         
         /// <value>Property <c>_villageUIMap</c> represents the map of villages to UI elements.</value>
         private readonly Dictionary<VillageData, GameObject> _villageUIMap = new Dictionary<VillageData, GameObject>();
-
-        /// <summary>
-        /// Method <c>Awake</c> is called when the script instance is being loaded.
-        /// </summary>
-        private void Awake()
-        {
-            if (Instance != null && Instance != this)
-            {
-                Destroy(gameObject);
-                return;
-            }
-            Instance = this;
-        }
         
         /// <summary>
         /// Method <c>Start</c> is called before the first frame update.
@@ -43,6 +28,15 @@ namespace WAAS.Managers
         private void Start()
         {
             GenerateKarmaUI();
+            KarmaManager.Instance.OnKarmaChanged += UpdateKarmaUI;
+        }
+        
+        /// <summary>
+        /// Method <c>OnDestroy</c> is called when the MonoBehaviour will be destroyed.
+        /// </summary>
+        private void OnDestroy()
+        {
+            KarmaManager.Instance.OnKarmaChanged -= UpdateKarmaUI;
         }
         
         /// <summary>
@@ -66,7 +60,7 @@ namespace WAAS.Managers
         /// </summary>
         /// <param name="village">The village.</param>
         /// <param name="karmaValue">The karma value.</param>
-        public void UpdateKarmaUI(VillageData village, int karmaValue)
+        private void UpdateKarmaUI(VillageData village, int karmaValue)
         {
             if (!_villageUIMap.TryGetValue(village, out var uiEntry))
                 return;

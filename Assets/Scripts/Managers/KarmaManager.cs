@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using WAAS.ScriptableObjects;
 
 namespace WAAS.Managers
@@ -12,14 +14,25 @@ namespace WAAS.Managers
         /// <value>Property <c>Instance</c> represents the singleton instance of the KarmaManager.</value>
         public static KarmaManager Instance { get; private set; }
         
+        /// <value>Property <c>minKarma</c> represents the minimum karma a village can have.</value>
+        [SerializeField]
+        private int minKarma = -50;
+        
         /// <value>Property <c>MinKarma</c> represents the minimum karma a village can have.</value>
-        private const int MinKarma = -50;
+        public int MinKarma => minKarma;
+        
+        /// <value>Property <c>maxKarma</c> represents the maximum karma a village can have.</value>
+        [SerializeField]
+        private int maxKarma = 50;
         
         /// <value>Property <c>MaxKarma</c> represents the maximum karma a village can have.</value>
-        private const int MaxKarma = 50;
+        public int MaxKarma => maxKarma;
 
         /// <value>Property <c>_villageKarma</c> represents the karma of the villages.</value>
         private Dictionary<VillageData, int> _villageKarma = new Dictionary<VillageData, int>();
+        
+        /// <value>Property <c>OnKarmaChanged</c> represents the event that is triggered when the karma of a village changes.</value>
+        public event Action<VillageData, int> OnKarmaChanged;
 
         /// <summary>
         /// Method <c>Awake</c> is called when the script instance is being loaded.
@@ -43,6 +56,7 @@ namespace WAAS.Managers
             foreach (var village in VillageManager.Instance.Villages)
             {
                 _villageKarma.Add(village, village.startingKarma);
+                OnKarmaChanged?.Invoke(village, village.startingKarma);
             }
         }
 
@@ -65,9 +79,9 @@ namespace WAAS.Managers
         {
             if (!_villageKarma.ContainsKey(village))
                 return;
-            _villageKarma[village] = Mathf.Clamp(_villageKarma[village] + amount, MinKarma, MaxKarma);
+            _villageKarma[village] = Mathf.Clamp(_villageKarma[village] + amount, minKarma, maxKarma);
             Debug.Log($"{village.villageName} karma: {_villageKarma[village]}");
-            KarmaUIManager.Instance?.UpdateKarmaUI(village, _villageKarma[village]);
+            OnKarmaChanged?.Invoke(village, _villageKarma[village]);
         }
     }
 }
