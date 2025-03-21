@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,7 @@ namespace WAAS.Entities
     /// </summary>
     public class PlayerMovement : MonoBehaviour
     {
+
         /// <value>Property <c>moveSpeed</c> represents the speed at which the player moves.</value>
         [SerializeField]
         private float maxMoveSpeed = 5.0f;
@@ -34,12 +36,24 @@ namespace WAAS.Entities
         /// <value>Property <c>_playerLight</c> represents the PlayerLight component attached to the player GameObject.</value>
         private PlayerLight _playerLight;
 
+        /// <value>Property <c>animator</c> represents the Animator component attached to the player GameObject.</value>
+        [SerializeField]
+        private Animator animator;
+        
+        /// <value>Property <c>MoveX</c> represents the hash of the MoveX parameter in the Animator.</value>
+        private static readonly int MoveX = Animator.StringToHash("MoveX");
+        
+        /// <value>Property <c>MoveY</c> represents the hash of the MoveY parameter in the Animator.</value>
+        private static readonly int MoveY = Animator.StringToHash("MoveY");
+
         /// <summary>
         /// Method <c>Awake</c> is called when the script instance is being loaded.
         /// </summary>
         private void Awake()
         {
             _controller = GetComponent<CharacterController>();
+            if (animator == null)
+                animator = GetComponentInChildren<Animator>();
             _currentMoveSpeed = maxMoveSpeed;
         }
         
@@ -86,6 +100,14 @@ namespace WAAS.Entities
         }
 
         /// <summary>
+        /// Method <c>FixedUpdate</c> is called at a fixed interval.
+        /// </summary>
+        private void FixedUpdate()
+        {
+            UpdateAnimation();
+        }
+
+        /// <summary>
         /// Method <c>HandleDeath</c> is called when the player dies.
         /// </summary>
         private void HandleDeath()
@@ -99,6 +121,20 @@ namespace WAAS.Entities
         private void AdjustSpeedToLight(int currentLight, int maxLight)
         {
             _currentMoveSpeed = Mathf.Lerp(minMoveSpeed, maxMoveSpeed, (float)currentLight / maxLight);
+        }
+        
+        private void UpdateAnimation()
+        {
+            if (_moveInput != Vector2.zero)
+            {
+                animator.SetFloat(MoveX, _moveInput.x);
+                animator.SetFloat(MoveY, _moveInput.y);
+                animator.Play("Walk");
+            }
+            else
+            {
+                animator.Play("ReadyIdle");
+            }
         }
     }
 }
