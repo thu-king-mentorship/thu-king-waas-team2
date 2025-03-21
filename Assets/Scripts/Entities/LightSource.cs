@@ -63,7 +63,7 @@ namespace WAAS.Entities
         /// <summary>
         /// Method <c>OnInteract</c> is called when the player presses the interact button.
         /// </summary>
-        public void OnInteract()
+        public void OnJump()
         {
             OnExtractLight();
         }
@@ -99,6 +99,11 @@ namespace WAAS.Entities
             if (sourceLight <= lightChangeAmount)
             {
                 Debug.Log("Not enough light to extract!");
+                return;
+            }
+            if (_playerLight.CurrentLight == _playerLight.MaxLight)
+            {
+                Debug.Log("Player light is full!");
                 return;
             }
             _playerLight.RestoreLight(lightChangeAmount);
