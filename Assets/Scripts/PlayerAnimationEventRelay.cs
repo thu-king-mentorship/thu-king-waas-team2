@@ -22,11 +22,6 @@ namespace WAAS
             _attackController = GetComponentInParent<PlayerAttackController>();
             _movementController = GetComponentInParent<PlayerMovementController>();
         }
-
-        /// <summary>
-        /// Method <c>OnAttackAnimationEnd</c> is called when the attack animation ends.
-        /// </summary>
-        public void OnAttackAnimationEnd() => _attackController?.OnAttackAnimationEnd();
         
         /// <summary>
         /// Method <c>OnJumpAnimationEnd</c> is called when the jump animation ends.
@@ -34,13 +29,24 @@ namespace WAAS
         public void OnJumpAnimationEnd() => _movementController?.OnJumpAnimationEnd();
         
         /// <summary>
+        /// Method <c>OnMeleeAttackAnimationHitFrame</c> is called when the melee attack animation reaches the hit frame.
+        /// </summary>
+        public void OnMeleeAttackAnimationHitFrame() => _attackController?.OnMeleeAttackAnimationHitFrame();
+
+        /// <summary>
+        /// Method <c>OnMeleeAttackAnimationEnd</c> is called when the melee attack animation ends.
+        /// </summary>
+        public void OnMeleeAttackAnimationEnd() => _attackController?.OnMeleeAttackAnimationEnd();
+
+        /// <summary>
+        /// Method <c>OnRangedAttackAnimationFireFrame</c> is called when the ranged attack animation reaches the fire frame.
+        /// </summary>
+        public void OnRangedAttackAnimationFireFrame() => _attackController?.OnRangedAttackAnimationFireFrame();
+        
+        /// <summary>
         /// Method <c>OnRangedAttackAnimationEnd</c> is called when the ranged attack animation ends.
         /// </summary>
         public void OnRangedAttackAnimationEnd() => _attackController?.OnRangedAttackAnimationEnd();
         
-        /// <summary>
-        /// Method <c>OnJumpAnimationStart</c> is called when the jump animation starts.
-        /// </summary>
-        public void FireProjectile() => _attackController?.FireProjectile();
     }
 }

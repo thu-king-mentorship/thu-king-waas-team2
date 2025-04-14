@@ -5,9 +5,9 @@ using UnityEngine;
 namespace WAAS.Controllers
 {
     /// <summary>
-    /// Class <c>CharacterLight</c> is a script that manages the character's light.
+    /// Class <c>PlayerLightController</c> is a script that manages the light of the player character.
     /// </summary>
-    public class CharacterLight : MonoBehaviour
+    public class PlayerLightController : MonoBehaviour
     {
         /// <value>Property <c>maxLight</c> represents the maximum light the character can have.</value>
         [SerializeField]

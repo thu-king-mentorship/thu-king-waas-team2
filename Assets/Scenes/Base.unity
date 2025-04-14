@@ -670,8 +670,8 @@ Transform:
   m_GameObject: {fileID: 455411302}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.10000001, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2083839467}
@@ -1591,23 +1591,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!1 &1803609192 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2171418551638373000, guid: d82ac79a741ded146a807cc100c4d570, type: 3}
-  m_PrefabInstance: {fileID: 8156449571277349609}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1803609198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803609192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaabe9a55ca30b44b83395d8d84a8e89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1810772925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5988587542922007748, guid: d82ac79a741ded146a807cc100c4d570, type: 3}
@@ -1728,7 +1711,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightBarFill: {fileID: 626324277}
   lightText: {fileID: 579794887}
-  playerLight: {fileID: 1810772926}
+  lightController: {fileID: 1810772926}
 --- !u!4 &1998547521
 Transform:
   m_ObjectHideFlags: 0
@@ -1831,10 +1814,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2171418551638373000, guid: d82ac79a741ded146a807cc100c4d570, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1803609198}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d82ac79a741ded146a807cc100c4d570, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

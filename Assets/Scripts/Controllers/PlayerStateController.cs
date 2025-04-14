@@ -8,24 +8,19 @@ namespace WAAS.Controllers
     public class PlayerStateController : MonoBehaviour
     {
         /// <value>Property <c>Current</c> returns the current state of the player.</value>
-        private PlayerState Current { get; set; } = PlayerState.Idle;
+        private PlayerState Current { get; set; }
 
         /// <summary>
         /// Method <c>SetState</c> sets the player's state to the specified state.
         /// </summary>
         /// <param name="state">The state to set.</param>
-        public void SetState(PlayerState state)
+        /// <param name="set">If true, sets the state; otherwise, unsets it.</param>
+        public void SetState(PlayerState state, bool set = true)
         {
-            Current |= state;
-        }
-
-        /// <summary>
-        /// Method <c>UnsetState</c> unsets the player's state to the specified state.
-        /// </summary>
-        /// <param name="state">The state to unset.</param>
-        public void UnsetState(PlayerState state)
-        {
-            Current &= ~state;
+            if (set)
+                Current |= state;
+            else
+                Current &= ~state;
         }
 
         /// <summary>

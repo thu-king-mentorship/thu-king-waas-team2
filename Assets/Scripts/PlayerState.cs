@@ -8,12 +8,10 @@ namespace WAAS
     [Flags]
     public enum PlayerState
     {
-        None        = 0,
-        Idle        = 1 << 0,
-        Moving      = 1 << 1,
-        Jumping     = 1 << 2,
-        Attacking   = 1 << 3,
-        Interacting = 1 << 4,
-        Dashing     = 1 << 5
+        None            = 0,
+        Moving          = 1 << 0,
+        Jumping         = 1 << 1,
+        AttackingMelee  = 1 << 2,
+        AttackingRanged = 1 << 3
     }
 }

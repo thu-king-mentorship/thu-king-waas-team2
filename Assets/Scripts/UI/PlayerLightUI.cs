@@ -18,16 +18,17 @@ namespace WAAS.UI
         [SerializeField]
         private TextMeshProUGUI lightText;
         
-        /// <value>Property <c>playerLight</c> represents the PlayerLight component attached to the player GameObject.</value>
+        /// <value>Property <c>lightController</c> represents the PlayerLightController component attached to the player GameObject.</value>
         [SerializeField]
-        private CharacterLight playerLight;
+        private PlayerLightController lightController;
 
         /// <summary>
         /// Method <c>Start</c> is called before the first frame update.
         /// </summary>
         private void Start()
         {
-            playerLight.OnLightChanged += UpdateLightBar;
+            if (lightController != null)
+                lightController.OnLightChanged += UpdateLightControllerBar;
         }
 
         /// <summary>
@@ -35,8 +36,8 @@ namespace WAAS.UI
         /// </summary>
         private void OnDestroy()
         {
-            if (playerLight != null)
-                playerLight.OnLightChanged -= UpdateLightBar;
+            if (lightController != null)
+                lightController.OnLightChanged -= UpdateLightControllerBar;
         }
 
         /// <summary>
@@ -44,7 +45,7 @@ namespace WAAS.UI
         /// </summary>
         /// <param name="currentLight">The current light of the player.</param>
         /// <param name="maxLight">The maximum light of the player.</param>
-        private void UpdateLightBar(int currentLight, int maxLight)
+        private void UpdateLightControllerBar(int currentLight, int maxLight)
         {
             lightBarFill.fillAmount = (float)currentLight / maxLight;
             lightText.text = $"{currentLight} / {maxLight}";
