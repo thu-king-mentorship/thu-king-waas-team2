@@ -27,7 +27,6 @@ namespace WAAS.Controllers
         {
             if (!other.CompareTag("Player"))
                 return;
-            Debug.Log("Player entered the trigger");
             virtualCamera.Follow = focusPoint;
             _player = other.transform;
         }
@@ -40,7 +39,6 @@ namespace WAAS.Controllers
         {
             if (!other.CompareTag("Player"))
                 return;
-            Debug.Log("Player exited the trigger");
             virtualCamera.Follow = _player;
             _player = null;
         }
