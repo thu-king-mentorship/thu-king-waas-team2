@@ -12,6 +12,10 @@ namespace WAAS.Controllers
         [SerializeField]
         private Light lightSource;
 
+        /// <value>Property <c>lightPath</c> represents a LightPathController to draw a path when the light is enabled.</value>
+        [SerializeField]
+        private LightPathController lightPath;
+
         /// <summary>
         /// Method <c>Awake</c> is called when the script instance is being loaded.
         /// </summary>
@@ -28,8 +32,10 @@ namespace WAAS.Controllers
         /// <param name="other">The collider that entered the trigger.</param>
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Lighter"))
-                EnableLight();
+            if (!other.CompareTag("Lighter"))
+                return;
+            EnableLight();
+            lightPath?.ActivatePath();
         }
 
         /// <summary>
