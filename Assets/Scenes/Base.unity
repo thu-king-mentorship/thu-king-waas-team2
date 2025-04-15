@@ -159,7 +159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 31658198}
-  m_Layer: 0
+  m_Layer: 26
   m_Name: Inside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,8 +198,8 @@ Mesh:
     firstVertex: 0
     vertexCount: 24
     localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 2.1000001, y: 0.20000005, z: 0.85}
+      m_Center: {x: -1.972272, y: 0, z: 0}
+      m_Extent: {x: 4.0722733, y: 0.20000005, z: 0.85}
   m_Shapes:
     vertices: []
     shapes: []
@@ -278,7 +278,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 1152
-    _typelessdata: 676606c0d0cc4cbe9a99593f00000000000000000000803f000080bf0000000000000000000080bf676686409899193f67660640d0cc4cbe9a99593f00000000000000000000803f000080bf0000000000000000000080bf000000009899193f676606c0d0cc4c3e9a99593f00000000000000000000803f000080bf0000000000000000000080bf676686400000803f67660640d0cc4c3e9a99593f00000000000000000000803f000080bf0000000000000000000080bf000000000000803f67660640d0cc4cbe9a99593f0000803f000000000000000000000000000000000000803f000080bf9a99d93f9899193f67660640d0cc4cbe9a9959bf0000803f000000000000000000000000000000000000803f000080bf000000009899193f67660640d0cc4c3e9a99593f0000803f000000000000000000000000000000000000803f000080bf9a99d93f0000803f67660640d0cc4c3e9a9959bf0000803f000000000000000000000000000000000000803f000080bf000000000000803f67660640d0cc4cbe9a9959bf0000000000000000000080bf0000803f0000000000000000000080bf676686409899193f676606c0d0cc4cbe9a9959bf0000000000000000000080bf0000803f0000000000000000000080bf000000009899193f67660640d0cc4c3e9a9959bf0000000000000000000080bf0000803f0000000000000000000080bf676686400000803f676606c0d0cc4c3e9a9959bf0000000000000000000080bf0000803f0000000000000000000080bf000000000000803f676606c0d0cc4cbe9a9959bf000080bf00000000000000000000000000000000000080bf000080bf9a99d93f9899193f676606c0d0cc4cbe9a99593f000080bf00000000000000000000000000000000000080bf000080bf000000009899193f676606c0d0cc4c3e9a9959bf000080bf00000000000000000000000000000000000080bf000080bf9a99d93f0000803f676606c0d0cc4c3e9a99593f000080bf00000000000000000000000000000000000080bf000080bf000000000000803f676606c0d0cc4c3e9a99593f000000000000803f000000000000803f0000000000000000000080bf000000000000803f67660640d0cc4c3e9a99593f000000000000803f000000000000803f0000000000000000000080bf676686400000803f676606c0d0cc4c3e9a9959bf000000000000803f000000000000803f0000000000000000000080bf00000000343333bf67660640d0cc4c3e9a9959bf000000000000803f000000000000803f0000000000000000000080bf67668640343333bf676606c0d0cc4cbe9a9959bf00000000000080bf00000000000080bf0000000000000000000080bf67668640343333bf67660640d0cc4cbe9a9959bf00000000000080bf00000000000080bf0000000000000000000080bf00000000343333bf676606c0d0cc4cbe9a99593f00000000000080bf00000000000080bf0000000000000000000080bf676686400000803f67660640d0cc4cbe9a99593f00000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
+    _typelessdata: ea6cc1c0d0cc4cbe9a99593f00000000000000000000803f000080bf0000000000000000000080bf105002419899193f6b660640d0cc4cbe9a99593f00000000000000000000803f000080bf0000000000000000000080bf000000009899193fea6cc1c0d0cc4c3e9a99593f00000000000000000000803f000080bf0000000000000000000080bf105002410000803f6b660640d0cc4c3e9a99593f00000000000000000000803f000080bf0000000000000000000080bf000000000000803f6b660640d0cc4cbe9a99593f0000803f000000000000000000000000000000000000803f000080bf9a99d93f9899193f6b660640d0cc4cbe9a9959bf0000803f000000000000000000000000000000000000803f000080bf000000009899193f6b660640d0cc4c3e9a99593f0000803f000000000000000000000000000000000000803f000080bf9a99d93f0000803f6b660640d0cc4c3e9a9959bf0000803f000000000000000000000000000000000000803f000080bf000000000000803f6b660640d0cc4cbe9a9959bf0000000000000000000080bf0000803f0000000000000000000080bf105002419899193fea6cc1c0d0cc4cbe9a9959bf0000000000000000000080bf0000803f0000000000000000000080bf000000009899193f6b660640d0cc4c3e9a9959bf0000000000000000000080bf0000803f0000000000000000000080bf105002410000803fea6cc1c0d0cc4c3e9a9959bf0000000000000000000080bf0000803f0000000000000000000080bf000000000000803fea6cc1c0d0cc4cbe9a9959bf000080bf00000000000000000000000000000000000080bf000080bf9a99d93f9899193fea6cc1c0d0cc4cbe9a99593f000080bf00000000000000000000000000000000000080bf000080bf000000009899193fea6cc1c0d0cc4c3e9a9959bf000080bf00000000000000000000000000000000000080bf000080bf9a99d93f0000803fea6cc1c0d0cc4c3e9a99593f000080bf00000000000000000000000000000000000080bf000080bf000000000000803fea6cc1c0d0cc4c3e9a99593f000000000000803f000000000000803f0000000000000000000080bf000000000000803f6b660640d0cc4c3e9a99593f000000000000803f000000000000803f0000000000000000000080bf105002410000803fea6cc1c0d0cc4c3e9a9959bf000000000000803f000000000000803f0000000000000000000080bf00000000343333bf6b660640d0cc4c3e9a9959bf000000000000803f000000000000803f0000000000000000000080bf10500241343333bfea6cc1c0d0cc4cbe9a9959bf00000000000080bf00000000000080bf0000000000000000000080bf10500241343333bf6b660640d0cc4cbe9a9959bf00000000000080bf00000000000080bf0000000000000000000080bf00000000343333bfea6cc1c0d0cc4cbe9a99593f00000000000080bf00000000000080bf0000000000000000000080bf105002410000803f6b660640d0cc4cbe9a99593f00000000000080bf00000000000080bf0000000000000000000080bf000000000000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -332,8 +332,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 2.1000001, y: 0.20000005, z: 0.85}
+    m_Center: {x: -1.972272, y: 0, z: 0}
+    m_Extent: {x: 4.0722733, y: 0.20000005, z: 0.85}
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
@@ -856,7 +856,7 @@ GameObject:
   - component: {fileID: 181556926}
   - component: {fileID: 181556925}
   m_Layer: 25
-  m_Name: Stairs (1)
+  m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2087,7 +2087,7 @@ GameObject:
   - component: {fileID: 262810246}
   - component: {fileID: 262810245}
   m_Layer: 25
-  m_Name: Cube (11)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2598,7 +2598,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 291758777}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: Outside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2872,7 +2872,7 @@ GameObject:
   - component: {fileID: 335245492}
   - component: {fileID: 335245491}
   m_Layer: 25
-  m_Name: Stairs (2)
+  m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4229,7 +4229,7 @@ GameObject:
   - component: {fileID: 384992745}
   - component: {fileID: 384992744}
   m_Layer: 25
-  m_Name: Cube (3)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4325,9 +4325,9 @@ MonoBehaviour:
   m_Shape:
     rid: 2538556063070552144
   m_ShapeRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_UnmodifiedMeshVersion: 844
-  m_Size: {x: -4.2000003, y: -0.4000001, z: -1.7}
-  m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_UnmodifiedMeshVersion: 2076
+  m_Size: {x: -8.1445465, y: -0.4000001, z: -1.7}
+  m_LocalCenter: {x: -1.9722729, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -4461,54 +4461,54 @@ MonoBehaviour:
   - m_Vertices: 0b0000000e00000012000000
   m_SharedTextures: []
   m_Positions:
-  - {x: -2.1000001, y: -0.20000005, z: 0.85}
-  - {x: 2.1000001, y: -0.20000005, z: 0.85}
-  - {x: -2.1000001, y: 0.20000005, z: 0.85}
-  - {x: 2.1000001, y: 0.20000005, z: 0.85}
-  - {x: 2.1000001, y: -0.20000005, z: 0.85}
-  - {x: 2.1000001, y: -0.20000005, z: -0.85}
-  - {x: 2.1000001, y: 0.20000005, z: 0.85}
-  - {x: 2.1000001, y: 0.20000005, z: -0.85}
-  - {x: 2.1000001, y: -0.20000005, z: -0.85}
-  - {x: -2.1000001, y: -0.20000005, z: -0.85}
-  - {x: 2.1000001, y: 0.20000005, z: -0.85}
-  - {x: -2.1000001, y: 0.20000005, z: -0.85}
-  - {x: -2.1000001, y: -0.20000005, z: -0.85}
-  - {x: -2.1000001, y: -0.20000005, z: 0.85}
-  - {x: -2.1000001, y: 0.20000005, z: -0.85}
-  - {x: -2.1000001, y: 0.20000005, z: 0.85}
-  - {x: -2.1000001, y: 0.20000005, z: 0.85}
-  - {x: 2.1000001, y: 0.20000005, z: 0.85}
-  - {x: -2.1000001, y: 0.20000005, z: -0.85}
-  - {x: 2.1000001, y: 0.20000005, z: -0.85}
-  - {x: -2.1000001, y: -0.20000005, z: -0.85}
-  - {x: 2.1000001, y: -0.20000005, z: -0.85}
-  - {x: -2.1000001, y: -0.20000005, z: 0.85}
-  - {x: 2.1000001, y: -0.20000005, z: 0.85}
+  - {x: -6.044545, y: -0.20000005, z: 0.85}
+  - {x: 2.100001, y: -0.20000005, z: 0.85}
+  - {x: -6.044545, y: 0.20000005, z: 0.85}
+  - {x: 2.100001, y: 0.20000005, z: 0.85}
+  - {x: 2.100001, y: -0.20000005, z: 0.85}
+  - {x: 2.100001, y: -0.20000005, z: -0.85}
+  - {x: 2.100001, y: 0.20000005, z: 0.85}
+  - {x: 2.100001, y: 0.20000005, z: -0.85}
+  - {x: 2.100001, y: -0.20000005, z: -0.85}
+  - {x: -6.044545, y: -0.20000005, z: -0.85}
+  - {x: 2.100001, y: 0.20000005, z: -0.85}
+  - {x: -6.044545, y: 0.20000005, z: -0.85}
+  - {x: -6.044545, y: -0.20000005, z: -0.85}
+  - {x: -6.044545, y: -0.20000005, z: 0.85}
+  - {x: -6.044545, y: 0.20000005, z: -0.85}
+  - {x: -6.044545, y: 0.20000005, z: 0.85}
+  - {x: -6.044545, y: 0.20000005, z: 0.85}
+  - {x: 2.100001, y: 0.20000005, z: 0.85}
+  - {x: -6.044545, y: 0.20000005, z: -0.85}
+  - {x: 2.100001, y: 0.20000005, z: -0.85}
+  - {x: -6.044545, y: -0.20000005, z: -0.85}
+  - {x: 2.100001, y: -0.20000005, z: -0.85}
+  - {x: -6.044545, y: -0.20000005, z: 0.85}
+  - {x: 2.100001, y: -0.20000005, z: 0.85}
   m_Textures0:
-  - {x: 4.2000003, y: 0.5999999}
+  - {x: 8.1445465, y: 0.5999999}
   - {x: 0, y: 0.5999999}
-  - {x: 4.2000003, y: 1}
+  - {x: 8.1445465, y: 1}
   - {x: 0, y: 1}
   - {x: 1.7, y: 0.5999999}
   - {x: 0, y: 0.5999999}
   - {x: 1.7, y: 1}
   - {x: 0, y: 1}
-  - {x: 4.2000003, y: 0.5999999}
+  - {x: 8.1445465, y: 0.5999999}
   - {x: 0, y: 0.5999999}
-  - {x: 4.2000003, y: 1}
+  - {x: 8.1445465, y: 1}
   - {x: 0, y: 1}
   - {x: 1.7, y: 0.5999999}
   - {x: 0, y: 0.5999999}
   - {x: 1.7, y: 1}
   - {x: 0, y: 1}
   - {x: 0, y: 1}
-  - {x: 4.2000003, y: 1}
+  - {x: 8.1445465, y: 1}
   - {x: 0, y: -0.70000005}
-  - {x: 4.2000003, y: -0.70000005}
-  - {x: 4.2000003, y: -0.70000005}
+  - {x: 8.1445465, y: -0.70000005}
+  - {x: 8.1445465, y: -0.70000005}
   - {x: 0, y: -0.70000005}
-  - {x: 4.2000003, y: 1}
+  - {x: 8.1445465, y: 1}
   - {x: 0, y: 1}
   m_Textures2: []
   m_Textures3: []
@@ -4546,7 +4546,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 53303992}
-  m_VersionIndex: 844
+  m_VersionIndex: 2076
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4560,7 +4560,7 @@ Transform:
   m_GameObject: {fileID: 384992743}
   serializedVersion: 2
   m_LocalRotation: {x: 1.110223e-17, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.896523, y: 2.615209, z: -1.524778}
+  m_LocalPosition: {x: -8.896523, y: 2.6152089, z: -1.524778}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4581,7 +4581,7 @@ GameObject:
   - component: {fileID: 392408866}
   - component: {fileID: 392408865}
   m_Layer: 26
-  m_Name: Cube (8)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4933,7 +4933,7 @@ GameObject:
   - component: {fileID: 399567989}
   - component: {fileID: 399567988}
   m_Layer: 25
-  m_Name: Cube (6)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5406,7 +5406,7 @@ GameObject:
   - component: {fileID: 415704928}
   - component: {fileID: 415704927}
   m_Layer: 25
-  m_Name: Cube (2)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5758,7 +5758,7 @@ GameObject:
   - component: {fileID: 428870122}
   - component: {fileID: 428870121}
   m_Layer: 25
-  m_Name: Cube (14)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6384,7 +6384,7 @@ GameObject:
   - component: {fileID: 501968172}
   - component: {fileID: 501968171}
   m_Layer: 25
-  m_Name: Cube (17)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6901,7 +6901,7 @@ GameObject:
   - component: {fileID: 574063147}
   - component: {fileID: 574063146}
   m_Layer: 25
-  m_Name: Cube (10)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7938,7 +7938,7 @@ GameObject:
   - component: {fileID: 757162258}
   - component: {fileID: 757162257}
   m_Layer: 25
-  m_Name: Cube (18)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8290,7 +8290,7 @@ GameObject:
   - component: {fileID: 819295377}
   - component: {fileID: 819295376}
   m_Layer: 25
-  m_Name: Cube (4)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9186,7 +9186,7 @@ GameObject:
   - component: {fileID: 925426267}
   - component: {fileID: 925426266}
   m_Layer: 25
-  m_Name: Cube (16)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9790,7 +9790,7 @@ GameObject:
   - component: {fileID: 998408954}
   - component: {fileID: 998408953}
   m_Layer: 25
-  m_Name: Cube (1)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10414,7 +10414,7 @@ GameObject:
   - component: {fileID: 1071871192}
   - component: {fileID: 1071871191}
   m_Layer: 26
-  m_Name: Cube (9)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10766,7 +10766,7 @@ GameObject:
   - component: {fileID: 1073469529}
   - component: {fileID: 1073469528}
   m_Layer: 25
-  m_Name: Cube (5)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11118,7 +11118,7 @@ GameObject:
   - component: {fileID: 1100035928}
   - component: {fileID: 1100035927}
   m_Layer: 25
-  m_Name: Cube (15)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13733,7 +13733,7 @@ GameObject:
   - component: {fileID: 1314852199}
   - component: {fileID: 1314852198}
   m_Layer: 25
-  m_Name: Cube (7)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14353,7 +14353,7 @@ GameObject:
   - component: {fileID: 1514707482}
   - component: {fileID: 1514707481}
   m_Layer: 25
-  m_Name: Cube (12)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15179,7 +15179,7 @@ Transform:
   m_GameObject: {fileID: 1663332415}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.416665, y: 3.3333325, z: -1.5416665}
+  m_LocalPosition: {x: -14.39, y: 3.3333325, z: -1.5416665}
   m_LocalScale: {x: 1, y: 1, z: 1.5833}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15821,7 +15821,7 @@ GameObject:
   - component: {fileID: 1927620107}
   - component: {fileID: 1927620106}
   - component: {fileID: 1927620105}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16738,7 +16738,7 @@ GameObject:
   - component: {fileID: 2051600423}
   - component: {fileID: 2051600422}
   m_Layer: 25
-  m_Name: Cube (13)
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
