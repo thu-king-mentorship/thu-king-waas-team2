@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ffe281c189e7c47a99ad5373bfaeb3, type: 3}
+  m_Name: AttackSettingsMelee_Default
+  m_EditorClassIdentifier: 
+  allowAttackWhileMoving: 1
+  timingMode: 2
+  attackCooldown: 2
+  meleeRange: 1.5
+  meleeHitboxSize: {x: 1.2, y: 1.2}
+  meleeDamage: 10

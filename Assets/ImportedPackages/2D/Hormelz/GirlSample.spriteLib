@@ -1,0 +1,3386 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Damaged_Down
+    m_Hash: 31729296
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Damaged_Down_0
+      m_Hash: 402629634
+      m_Sprite: {fileID: -585742351, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -585742351, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+    - m_Name: GirlSample_Damaged_Down_1
+      m_Hash: 553161876
+      m_Sprite: {fileID: 834837986, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 834837986, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+    - m_Name: GirlSample_Damaged_Down_2
+      m_Hash: 972145966
+      m_Sprite: {fileID: 1426040276, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1426040276, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+    - m_Name: GirlSample_Damaged_Down_3
+      m_Hash: 251065784
+      m_Sprite: {fileID: 1017128322, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1017128322, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+    - m_Name: GirlSample_Damaged_Down_4
+      m_Hash: 278028315
+      m_Sprite: {fileID: 985876165, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 985876165, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+    - m_Name: GirlSample_Damaged_Down_5
+      m_Hash: 664096909
+      m_Sprite: {fileID: -1978686036, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1978686036, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+    - m_Name: GirlSample_Damaged_Down_6
+      m_Hash: 1050411319
+      m_Sprite: {fileID: -1158469587, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1158469587, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+    - m_Name: GirlSample_Damaged_Down_7
+      m_Hash: 161165729
+      m_Sprite: {fileID: 755415421, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 755415421, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+    - m_Name: GirlSample_Damaged_Down_8
+      m_Hash: 421801008
+      m_Sprite: {fileID: -498185717, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -498185717, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+    - m_Name: GirlSample_Damaged_Down_9
+      m_Hash: 774053030
+      m_Sprite: {fileID: 1361233771, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1361233771, guid: aba8a5ad176602545bf0b28c2f7cdaea, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Damaged_DownLeft
+    m_Hash: 381720030
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Damaged_DownLeft_0
+      m_Hash: 641053556
+      m_Sprite: {fileID: 250158500, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 250158500, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+    - m_Name: GirlSample_Damaged_DownLeft_1
+      m_Hash: 288523234
+      m_Sprite: {fileID: -1971714985, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1971714985, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+    - m_Name: GirlSample_Damaged_DownLeft_2
+      m_Hash: 138138200
+      m_Sprite: {fileID: -1790023955, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1790023955, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+    - m_Name: GirlSample_Damaged_DownLeft_3
+      m_Hash: 1060954830
+      m_Sprite: {fileID: -1954210800, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1954210800, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+    - m_Name: GirlSample_Damaged_DownLeft_4
+      m_Hash: 559445869
+      m_Sprite: {fileID: -939995902, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -939995902, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+    - m_Name: GirlSample_Damaged_DownLeft_5
+      m_Hash: 375343099
+      m_Sprite: {fileID: 89543, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 89543, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+    - m_Name: GirlSample_Damaged_DownLeft_6
+      m_Hash: 257300033
+      m_Sprite: {fileID: 924960260, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 924960260, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+    - m_Name: GirlSample_Damaged_DownLeft_7
+      m_Hash: 944842455
+      m_Sprite: {fileID: 1270164802, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1270164802, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+    - m_Name: GirlSample_Damaged_DownLeft_8
+      m_Hash: 686701382
+      m_Sprite: {fileID: -1318891368, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1318891368, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+    - m_Name: GirlSample_Damaged_DownLeft_9
+      m_Hash: 535366608
+      m_Sprite: {fileID: -1945321604, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1945321604, guid: 67757ba5c6e33494fa5020bf57cba1f5, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Damaged_DownRight
+    m_Hash: 379897055
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Damaged_DownRight_0
+      m_Hash: 304375713
+      m_Sprite: {fileID: 932727285, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 932727285, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+    - m_Name: GirlSample_Damaged_DownRight_1
+      m_Hash: 623073079
+      m_Sprite: {fileID: -376696891, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -376696891, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+    - m_Name: GirlSample_Damaged_DownRight_2
+      m_Hash: 1009387149
+      m_Sprite: {fileID: -1251091320, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1251091320, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+    - m_Name: GirlSample_Damaged_DownRight_3
+      m_Hash: 187512347
+      m_Sprite: {fileID: -1001330055, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1001330055, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+    - m_Name: GirlSample_Damaged_DownRight_4
+      m_Hash: 357147576
+      m_Sprite: {fileID: 209085785, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 209085785, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+    - m_Name: GirlSample_Damaged_DownRight_5
+      m_Hash: 575574830
+      m_Sprite: {fileID: 1794745027, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1794745027, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+    - m_Name: GirlSample_Damaged_DownRight_6
+      m_Hash: 994558612
+      m_Sprite: {fileID: -1755635026, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1755635026, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+    - m_Name: GirlSample_Damaged_DownRight_7
+      m_Hash: 205582850
+      m_Sprite: {fileID: -731692347, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -731692347, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+    - m_Name: GirlSample_Damaged_DownRight_8
+      m_Hash: 486535059
+      m_Sprite: {fileID: 1955439238, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1955439238, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+    - m_Name: GirlSample_Damaged_DownRight_9
+      m_Hash: 737730309
+      m_Sprite: {fileID: 851313312, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 851313312, guid: c356117f5421d6345a1a791975aa581d, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Damaged_Left
+    m_Hash: 662458819
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Damaged_Left_0
+      m_Hash: 134752402
+      m_Sprite: {fileID: -1304873232, guid: f091f294971895b419260b5812834f4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1304873232, guid: f091f294971895b419260b5812834f4c, type: 3}
+    - m_Name: GirlSample_Damaged_Left_1
+      m_Hash: 1057953796
+      m_Sprite: {fileID: 1327082490, guid: f091f294971895b419260b5812834f4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1327082490, guid: f091f294971895b419260b5812834f4c, type: 3}
+    - m_Name: GirlSample_Damaged_Left_2
+      m_Hash: 637946302
+      m_Sprite: {fileID: 1114750408, guid: f091f294971895b419260b5812834f4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1114750408, guid: f091f294971895b419260b5812834f4c, type: 3}
+    - m_Name: GirlSample_Damaged_Left_3
+      m_Hash: 285309224
+      m_Sprite: {fileID: 1751728346, guid: f091f294971895b419260b5812834f4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1751728346, guid: f091f294971895b419260b5812834f4c, type: 3}
+    - m_Name: GirlSample_Damaged_Left_4
+      m_Hash: 258337931
+      m_Sprite: {fileID: -1687243255, guid: f091f294971895b419260b5812834f4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1687243255, guid: f091f294971895b419260b5812834f4c, type: 3}
+    - m_Name: GirlSample_Damaged_Left_5
+      m_Hash: 946002973
+      m_Sprite: {fileID: 270879677, guid: f091f294971895b419260b5812834f4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 270879677, guid: f091f294971895b419260b5812834f4c, type: 3}
+    - m_Name: GirlSample_Damaged_Left_6
+      m_Hash: 560696743
+      m_Sprite: {fileID: 1697050974, guid: f091f294971895b419260b5812834f4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1697050974, guid: f091f294971895b419260b5812834f4c, type: 3}
+    - m_Name: GirlSample_Damaged_Left_7
+      m_Hash: 376225073
+      m_Sprite: {fileID: 1875709730, guid: f091f294971895b419260b5812834f4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1875709730, guid: f091f294971895b419260b5812834f4c, type: 3}
+    - m_Name: GirlSample_Damaged_Left_8
+      m_Hash: 114532512
+      m_Sprite: {fileID: 891292114, guid: f091f294971895b419260b5812834f4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 891292114, guid: f091f294971895b419260b5812834f4c, type: 3}
+    - m_Name: GirlSample_Damaged_Left_9
+      m_Hash: 836014134
+      m_Sprite: {fileID: -574274425, guid: f091f294971895b419260b5812834f4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -574274425, guid: f091f294971895b419260b5812834f4c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Damaged_Right
+    m_Hash: 903025858
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Damaged_Right_0
+      m_Hash: 459480439
+      m_Sprite: {fileID: -1587672856, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1587672856, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+    - m_Name: GirlSample_Damaged_Right_1
+      m_Hash: 744762849
+      m_Sprite: {fileID: -1335877358, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1335877358, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+    - m_Name: GirlSample_Damaged_Right_2
+      m_Hash: 896367707
+      m_Sprite: {fileID: -1299960764, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1299960764, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+    - m_Name: GirlSample_Damaged_Right_3
+      m_Hash: 40520909
+      m_Sprite: {fileID: 649819348, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 649819348, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+    - m_Name: GirlSample_Damaged_Right_4
+      m_Hash: 470735214
+      m_Sprite: {fileID: 643332068, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 643332068, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+    - m_Name: GirlSample_Damaged_Right_5
+      m_Hash: 722070008
+      m_Sprite: {fileID: 134839459, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 134839459, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+    - m_Name: GirlSample_Damaged_Right_6
+      m_Hash: 838907970
+      m_Sprite: {fileID: 388117302, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 388117302, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+    - m_Name: GirlSample_Damaged_Right_7
+      m_Hash: 84379860
+      m_Sprite: {fileID: -1267024042, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1267024042, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+    - m_Name: GirlSample_Damaged_Right_8
+      m_Hash: 364418373
+      m_Sprite: {fileID: -1311904901, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1311904901, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+    - m_Name: GirlSample_Damaged_Right_9
+      m_Hash: 582985171
+      m_Sprite: {fileID: 1123473931, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1123473931, guid: 819e56201a9dbae4bb0e598cfb6222fa, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Damaged_Up
+    m_Hash: 430095963
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Damaged_Up_0
+      m_Hash: 600146297
+      m_Sprite: {fileID: -104739844, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -104739844, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+    - m_Name: GirlSample_Damaged_Up_1
+      m_Hash: 348303855
+      m_Sprite: {fileID: 371328895, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 371328895, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+    - m_Name: GirlSample_Damaged_Up_2
+      m_Hash: 231465045
+      m_Sprite: {fileID: -2122510637, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2122510637, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+    - m_Name: GirlSample_Damaged_Up_3
+      m_Hash: 986501315
+      m_Sprite: {fileID: 1589850042, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1589850042, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+    - m_Name: GirlSample_Damaged_Up_4
+      m_Hash: 615007584
+      m_Sprite: {fileID: -1063496775, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1063496775, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+    - m_Name: GirlSample_Damaged_Up_5
+      m_Hash: 330266102
+      m_Sprite: {fileID: 1454795005, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1454795005, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+    - m_Name: GirlSample_Damaged_Up_6
+      m_Hash: 178660428
+      m_Sprite: {fileID: 1607357617, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1607357617, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+    - m_Name: GirlSample_Damaged_Up_7
+      m_Hash: 1033966810
+      m_Sprite: {fileID: 886891655, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 886891655, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+    - m_Name: GirlSample_Damaged_Up_8
+      m_Hash: 756943179
+      m_Sprite: {fileID: -932449347, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -932449347, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+    - m_Name: GirlSample_Damaged_Up_9
+      m_Hash: 437860829
+      m_Sprite: {fileID: 2083912164, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2083912164, guid: d1d305cba5fb6514fad391f565ce576a, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Damaged_UpLeft
+    m_Hash: 119481556
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Damaged_UpLeft_0
+      m_Hash: 1005910174
+      m_Sprite: {fileID: 1962152209, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1962152209, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+    - m_Name: GirlSample_Damaged_UpLeft_1
+      m_Hash: 217303048
+      m_Sprite: {fileID: 1618190190, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1618190190, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+    - m_Name: GirlSample_Damaged_UpLeft_2
+      m_Hash: 368744882
+      m_Sprite: {fileID: -614102812, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -614102812, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+    - m_Name: GirlSample_Damaged_UpLeft_3
+      m_Hash: 587049252
+      m_Sprite: {fileID: -1868895199, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1868895199, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+    - m_Name: GirlSample_Damaged_UpLeft_4
+      m_Hash: 1016675463
+      m_Sprite: {fileID: -170059105, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -170059105, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+    - m_Name: GirlSample_Damaged_UpLeft_5
+      m_Hash: 194907153
+      m_Sprite: {fileID: 1583997363, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1583997363, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+    - m_Name: GirlSample_Damaged_UpLeft_6
+      m_Hash: 311909803
+      m_Sprite: {fileID: -1808334001, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1808334001, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+    - m_Name: GirlSample_Damaged_UpLeft_7
+      m_Hash: 630222141
+      m_Sprite: {fileID: 1358206017, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1358206017, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+    - m_Name: GirlSample_Damaged_UpLeft_8
+      m_Hash: 892301484
+      m_Sprite: {fileID: 898367014, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 898367014, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+    - m_Name: GirlSample_Damaged_UpLeft_9
+      m_Hash: 36192314
+      m_Sprite: {fileID: -1040264879, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1040264879, guid: 02a99571f48420741ada91b71d3ab777, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Damaged_UpRight
+    m_Hash: 920711792
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Damaged_UpRight_0
+      m_Hash: 317107596
+      m_Sprite: {fileID: -1228346250, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1228346250, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+    - m_Name: GirlSample_Damaged_UpRight_1
+      m_Hash: 635542810
+      m_Sprite: {fileID: 1802724033, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1802724033, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+    - m_Name: GirlSample_Damaged_UpRight_2
+      m_Hash: 1021889696
+      m_Sprite: {fileID: -1591643153, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1591643153, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+    - m_Name: GirlSample_Damaged_UpRight_3
+      m_Hash: 200277046
+      m_Sprite: {fileID: 1460747102, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1460747102, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+    - m_Name: GirlSample_Damaged_UpRight_4
+      m_Hash: 361458069
+      m_Sprite: {fileID: 1571909490, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1571909490, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+    - m_Name: GirlSample_Damaged_UpRight_5
+      m_Hash: 579623171
+      m_Sprite: {fileID: 1197772304, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1197772304, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+    - m_Name: GirlSample_Damaged_UpRight_6
+      m_Hash: 998574265
+      m_Sprite: {fileID: 1620433881, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1620433881, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+    - m_Name: GirlSample_Damaged_UpRight_7
+      m_Hash: 209860655
+      m_Sprite: {fileID: -1118900892, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1118900892, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+    - m_Name: GirlSample_Damaged_UpRight_8
+      m_Hash: 473769406
+      m_Sprite: {fileID: -457832236, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -457832236, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+    - m_Name: GirlSample_Damaged_UpRight_9
+      m_Hash: 725226792
+      m_Sprite: {fileID: -123593344, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -123593344, guid: 930549bd6c1e33740b3574494454ade3, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Fireball_Down
+    m_Hash: 207168223
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Fireball_Down_0
+      m_Hash: 733306232
+      m_Sprite: {fileID: 1271380549, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1271380549, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_1
+      m_Hash: 481455598
+      m_Sprite: {fileID: 479899793, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 479899793, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_2
+      m_Hash: 96156756
+      m_Sprite: {fileID: -1434674090, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1434674090, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_3
+      m_Hash: 851184834
+      m_Sprite: {fileID: 1750031658, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1750031658, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_4
+      m_Hash: 752392545
+      m_Sprite: {fileID: 329706561, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 329706561, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_5
+      m_Hash: 467642871
+      m_Sprite: {fileID: 1861439669, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1861439669, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_6
+      m_Hash: 47642701
+      m_Sprite: {fileID: 283775468, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 283775468, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_7
+      m_Hash: 902940891
+      m_Sprite: {fileID: 1660097992, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1660097992, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_8
+      m_Hash: 628020554
+      m_Sprite: {fileID: -2127474619, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2127474619, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_9
+      m_Hash: 308930012
+      m_Sprite: {fileID: 1415395926, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1415395926, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_10
+      m_Hash: 863347251
+      m_Sprite: {fileID: -1056136672, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1056136672, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_11
+      m_Hash: 74617509
+      m_Sprite: {fileID: 681527751, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 681527751, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_12
+      m_Hash: 494650143
+      m_Sprite: {fileID: -1807994914, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1807994914, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_13
+      m_Hash: 712831881
+      m_Sprite: {fileID: -135985328, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -135985328, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_14
+      m_Hash: 874014250
+      m_Sprite: {fileID: 1140761631, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1140761631, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_15
+      m_Hash: 52385468
+      m_Sprite: {fileID: 1316523205, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1316523205, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_16
+      m_Hash: 437651206
+      m_Sprite: {fileID: 834510150, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 834510150, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_17
+      m_Hash: 756103056
+      m_Sprite: {fileID: -1040023953, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1040023953, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_18
+      m_Hash: 1034824193
+      m_Sprite: {fileID: -1178003741, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1178003741, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_19
+      m_Hash: 178854551
+      m_Sprite: {fileID: 1430750171, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1430750171, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_20
+      m_Hash: 408482288
+      m_Sprite: {fileID: 680335002, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 680335002, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_21
+      m_Hash: 794804582
+      m_Sprite: {fileID: 1693782772, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1693782772, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    - m_Name: GirlSample_Fireball_Down_22
+      m_Hash: 911642844
+      m_Sprite: {fileID: 108872064, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 108872064, guid: d31c92b730a2c0a43bbea9cccfc5676b, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 23
+  - m_Name: Fireball_DownLeft
+    m_Hash: 196647089
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Fireball_DownLeft_0
+      m_Hash: 193405259
+      m_Sprite: {fileID: 568770969, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 568770969, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_1
+      m_Hash: 1015026141
+      m_Sprite: {fileID: 2066064946, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2066064946, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_2
+      m_Hash: 629751911
+      m_Sprite: {fileID: 981567706, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 981567706, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_3
+      m_Hash: 311324913
+      m_Sprite: {fileID: 498698470, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 498698470, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_4
+      m_Hash: 216720722
+      m_Sprite: {fileID: 789175928, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 789175928, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_5
+      m_Hash: 1005442500
+      m_Sprite: {fileID: -1829674713, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1829674713, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_6
+      m_Hash: 585401470
+      m_Sprite: {fileID: -294351285, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -294351285, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_7
+      m_Hash: 367244520
+      m_Sprite: {fileID: 1239710081, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1239710081, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_8
+      m_Hash: 89958777
+      m_Sprite: {fileID: -206274405, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -206274405, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_9
+      m_Hash: 844863983
+      m_Sprite: {fileID: 1844140134, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1844140134, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_10
+      m_Hash: 205910361
+      m_Sprite: {fileID: 886431483, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 886431483, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_11
+      m_Hash: 994230735
+      m_Sprite: {fileID: -1586037133, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1586037133, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_12
+      m_Hash: 575377525
+      m_Sprite: {fileID: 1301709367, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1301709367, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_13
+      m_Hash: 357343459
+      m_Sprite: {fileID: -929858838, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -929858838, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_14
+      m_Hash: 187184448
+      m_Sprite: {fileID: 1875669203, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1875669203, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_15
+      m_Hash: 1009714646
+      m_Sprite: {fileID: -1575804993, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1575804993, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_16
+      m_Hash: 623268972
+      m_Sprite: {fileID: -211501726, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -211501726, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_17
+      m_Hash: 304178426
+      m_Sprite: {fileID: 1673550783, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1673550783, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_18
+      m_Hash: 43940203
+      m_Sprite: {fileID: 832800427, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 832800427, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_19
+      m_Hash: 899238397
+      m_Sprite: {fileID: 2119859402, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2119859402, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_20
+      m_Hash: 661168794
+      m_Sprite: {fileID: -260390269, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -260390269, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_21
+      m_Hash: 275747340
+      m_Sprite: {fileID: 1349156407, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1349156407, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    - m_Name: GirlSample_Fireball_DownLeft_22
+      m_Hash: 157729718
+      m_Sprite: {fileID: -544847241, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -544847241, guid: 494aa24b5a43d6f41b3ca8d251aef8cb, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 23
+  - m_Name: Fireball_DownRight
+    m_Hash: 188006427
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Fireball_DownRight_0
+      m_Hash: 615512078
+      m_Sprite: {fileID: 510157328, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 510157328, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_1
+      m_Hash: 329828504
+      m_Sprite: {fileID: -1250479473, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1250479473, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_2
+      m_Hash: 178362658
+      m_Sprite: {fileID: 75690385, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 75690385, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_3
+      m_Hash: 1034332596
+      m_Sprite: {fileID: -1010029692, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1010029692, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_4
+      m_Hash: 599931927
+      m_Sprite: {fileID: 600349847, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 600349847, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_5
+      m_Hash: 348458113
+      m_Sprite: {fileID: -1918711345, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1918711345, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_6
+      m_Hash: 231497019
+      m_Sprite: {fileID: 537431459, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 537431459, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_7
+      m_Hash: 986410413
+      m_Sprite: {fileID: 1002069660, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1002069660, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_8
+      m_Hash: 712273980
+      m_Sprite: {fileID: -1510903118, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1510903118, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_9
+      m_Hash: 494092458
+      m_Sprite: {fileID: -1411250021, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1411250021, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_10
+      m_Hash: 182217887
+      m_Sprite: {fileID: -173463842, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -173463842, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_11
+      m_Hash: 1037786121
+      m_Sprite: {fileID: 1720409015, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1720409015, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_12
+      m_Hash: 617745843
+      m_Sprite: {fileID: -1558301811, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1558301811, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_13
+      m_Hash: 332741925
+      m_Sprite: {fileID: -1614778747, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1614778747, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_14
+      m_Hash: 229746822
+      m_Sprite: {fileID: -1398692092, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1398692092, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_15
+      m_Hash: 985045008
+      m_Sprite: {fileID: -1933951699, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1933951699, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_16
+      m_Hash: 599771562
+      m_Sprite: {fileID: 1072470681, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1072470681, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_17
+      m_Hash: 347666748
+      m_Sprite: {fileID: 1319136955, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1319136955, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_18
+      m_Hash: 67626157
+      m_Sprite: {fileID: 886021210, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 886021210, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_19
+      m_Hash: 855692347
+      m_Sprite: {fileID: 531928313, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 531928313, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_20
+      m_Hash: 569458524
+      m_Sprite: {fileID: -1081131689, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1081131689, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_21
+      m_Hash: 385224650
+      m_Sprite: {fileID: 2009547803, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2009547803, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    - m_Name: GirlSample_Fireball_DownRight_22
+      m_Hash: 268394096
+      m_Sprite: {fileID: -272442133, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -272442133, guid: 5bbd04bdd3c8beb46b72615a92b9d4db, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 23
+  - m_Name: Fireball_Left
+    m_Hash: 717313420
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Fireball_Left_0
+      m_Hash: 876794344
+      m_Sprite: {fileID: 2107700718, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2107700718, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_1
+      m_Hash: 54911358
+      m_Sprite: {fileID: -2004028510, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2004028510, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_2
+      m_Hash: 441233604
+      m_Sprite: {fileID: 1382460131, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1382460131, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_3
+      m_Hash: 759922770
+      m_Sprite: {fileID: 1528380781, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1528380781, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_4
+      m_Hash: 858723825
+      m_Sprite: {fileID: -1042891480, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1042891480, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_5
+      m_Hash: 69739879
+      m_Sprite: {fileID: 885675209, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 885675209, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_6
+      m_Hash: 488731869
+      m_Sprite: {fileID: 1448047500, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1448047500, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_7
+      m_Hash: 707150923
+      m_Sprite: {fileID: 2008360370, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2008360370, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_8
+      m_Hash: 983128538
+      m_Sprite: {fileID: -1404990221, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1404990221, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_9
+      m_Hash: 228485452
+      m_Sprite: {fileID: 1834483508, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1834483508, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_10
+      m_Hash: 52807419
+      m_Sprite: {fileID: 369553281, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 369553281, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_11
+      m_Hash: 874706541
+      m_Sprite: {fileID: 182929685, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 182929685, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_12
+      m_Hash: 757835735
+      m_Sprite: {fileID: 568156275, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 568156275, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_13
+      m_Hash: 439129921
+      m_Sprite: {fileID: -2111999321, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2111999321, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_14
+      m_Hash: 71828194
+      m_Sprite: {fileID: -1330815356, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1330815356, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_15
+      m_Hash: 860828276
+      m_Sprite: {fileID: 1740562944, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1740562944, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_16
+      m_Hash: 709256142
+      m_Sprite: {fileID: 74590388, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 74590388, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_17
+      m_Hash: 490820440
+      m_Sprite: {fileID: 1046328514, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1046328514, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_18
+      m_Hash: 234770121
+      m_Sprite: {fileID: 503699601, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 503699601, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_19
+      m_Hash: 989429343
+      m_Sprite: {fileID: -1252849223, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1252849223, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_20
+      m_Hash: 671651128
+      m_Sprite: {fileID: -284085877, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -284085877, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_21
+      m_Hash: 521119150
+      m_Sprite: {fileID: 1891192367, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1891192367, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    - m_Name: GirlSample_Fireball_Left_22
+      m_Hash: 101118996
+      m_Sprite: {fileID: -968359584, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -968359584, guid: 18cd785f4edf4254d88a9e2639793069, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 23
+  - m_Name: Fireball_Right
+    m_Hash: 335410631
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Fireball_Right_0
+      m_Hash: 735039404
+      m_Sprite: {fileID: -418801600, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -418801600, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_1
+      m_Hash: 482934586
+      m_Sprite: {fileID: 264113511, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 264113511, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_2
+      m_Hash: 96579200
+      m_Sprite: {fileID: -826794438, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -826794438, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_3
+      m_Hash: 851877398
+      m_Sprite: {fileID: 61979994, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 61979994, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_4
+      m_Hash: 748817333
+      m_Sprite: {fileID: -901538482, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -901538482, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_5
+      m_Hash: 463813411
+      m_Sprite: {fileID: 1779910950, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1779910950, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_6
+      m_Hash: 44853913
+      m_Sprite: {fileID: 1104787966, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1104787966, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_7
+      m_Hash: 900422159
+      m_Sprite: {fileID: 1300597062, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1300597062, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_8
+      m_Hash: 622086046
+      m_Sprite: {fileID: 1825530444, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1825530444, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_9
+      m_Hash: 303265544
+      m_Sprite: {fileID: 1438796509, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1438796509, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_10
+      m_Hash: 843828844
+      m_Sprite: {fileID: 1811073348, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1811073348, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_11
+      m_Hash: 88932090
+      m_Sprite: {fileID: 1789150817, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1789150817, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_12
+      m_Hash: 474328896
+      m_Sprite: {fileID: -1256565105, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1256565105, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_13
+      m_Hash: 725786582
+      m_Sprite: {fileID: -474519455, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -474519455, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_14
+      m_Hash: 891685493
+      m_Sprite: {fileID: 925628178, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 925628178, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_15
+      m_Hash: 35732195
+      m_Sprite: {fileID: -1322495997, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1322495997, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_16
+      m_Hash: 455633753
+      m_Sprite: {fileID: -635703923, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -635703923, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_17
+      m_Hash: 741301199
+      m_Sprite: {fileID: -1376715344, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1376715344, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_18
+      m_Hash: 1016088158
+      m_Sprite: {fileID: 1406992446, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1406992446, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_19
+      m_Hash: 194475720
+      m_Sprite: {fileID: -1950021686, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1950021686, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_20
+      m_Hash: 426155439
+      m_Sprite: {fileID: -1270772340, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1270772340, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_21
+      m_Hash: 778153273
+      m_Sprite: {fileID: -1771505922, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1771505922, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    - m_Name: GirlSample_Fireball_Right_22
+      m_Hash: 929627267
+      m_Sprite: {fileID: -1023748973, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1023748973, guid: 58806a2a27453a84c9cb1e7ae045e686, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 23
+  - m_Name: Fireball_Up
+    m_Hash: 1011673618
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Fireball_Up_0
+      m_Hash: 1017168179
+      m_Sprite: {fileID: -2144554116, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2144554116, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_1
+      m_Hash: 195555749
+      m_Sprite: {fileID: -116323994, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -116323994, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_2
+      m_Hash: 313434143
+      m_Sprite: {fileID: -671586027, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -671586027, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_3
+      m_Hash: 631869577
+      m_Sprite: {fileID: 1592458484, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1592458484, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_4
+      m_Hash: 1003291946
+      m_Sprite: {fileID: 1463244590, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1463244590, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_5
+      m_Hash: 214578620
+      m_Sprite: {fileID: -1004702690, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1004702690, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_6
+      m_Hash: 365126662
+      m_Sprite: {fileID: 2091304455, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2091304455, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_7
+      m_Hash: 583292048
+      m_Sprite: {fileID: -1510333498, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1510333498, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_8
+      m_Hash: 846940417
+      m_Sprite: {fileID: 679624094, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 679624094, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_9
+      m_Hash: 92043671
+      m_Sprite: {fileID: -1507397467, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1507397467, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_10
+      m_Hash: 317468599
+      m_Sprite: {fileID: -1877356207, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1877356207, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_11
+      m_Hash: 636165921
+      m_Sprite: {fileID: 290866333, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 290866333, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_12
+      m_Hash: 1021464219
+      m_Sprite: {fileID: -1793537179, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1793537179, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_13
+      m_Hash: 199589389
+      m_Sprite: {fileID: -302095828, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -302095828, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_14
+      m_Hash: 360836014
+      m_Sprite: {fileID: -1255283008, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1255283008, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_15
+      m_Hash: 579263288
+      m_Sprite: {fileID: -1068480336, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1068480336, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_16
+      m_Hash: 999262850
+      m_Sprite: {fileID: -651223030, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -651223030, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_17
+      m_Hash: 210287124
+      m_Sprite: {fileID: 1955361247, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1955361247, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_18
+      m_Hash: 473409413
+      m_Sprite: {fileID: -1329888029, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1329888029, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_19
+      m_Hash: 724604691
+      m_Sprite: {fileID: 117456150, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 117456150, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_20
+      m_Hash: 968981620
+      m_Sprite: {fileID: -1322027304, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1322027304, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_21
+      m_Hash: 247876834
+      m_Sprite: {fileID: 933109379, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 933109379, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    - m_Name: GirlSample_Fireball_Up_22
+      m_Hash: 399449432
+      m_Sprite: {fileID: -592747005, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -592747005, guid: a95b7736554d095439d2ae73b2064bcd, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 23
+  - m_Name: FIreball_UpLeft
+    m_Hash: 989300322
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Fireball_UpLeft_0
+      m_Hash: 709189392
+      m_Sprite: {fileID: -351338707, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -351338707, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_1
+      m_Hash: 490893190
+      m_Sprite: {fileID: 1032451429, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1032451429, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_2
+      m_Hash: 72039996
+      m_Sprite: {fileID: 1532402822, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1532402822, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_3
+      m_Hash: 860622506
+      m_Sprite: {fileID: -1955686626, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1955686626, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_4
+      m_Hash: 757635849
+      m_Sprite: {fileID: -130825812, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -130825812, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_5
+      m_Hash: 439331743
+      m_Sprite: {fileID: 1434024539, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1434024539, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_6
+      m_Hash: 52886053
+      m_Sprite: {fileID: -305905924, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -305905924, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_7
+      m_Hash: 874629811
+      m_Sprite: {fileID: 949028783, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 949028783, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_8
+      m_Hash: 614389538
+      m_Sprite: {fileID: -878711898, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -878711898, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_9
+      m_Hash: 328853428
+      m_Sprite: {fileID: -1211664649, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1211664649, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_10
+      m_Hash: 807254875
+      m_Sprite: {fileID: 881772836, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 881772836, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_11
+      m_Hash: 119180237
+      m_Sprite: {fileID: 1964883605, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1964883605, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_12
+      m_Hash: 504617591
+      m_Sprite: {fileID: 2091941123, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2091941123, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_13
+      m_Hash: 689236705
+      m_Sprite: {fileID: -915571358, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -915571358, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_14
+      m_Hash: 930119490
+      m_Sprite: {fileID: 201017812, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 201017812, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_15
+      m_Hash: 7819220
+      m_Sprite: {fileID: -387250051, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -387250051, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_16
+      m_Hash: 427695726
+      m_Sprite: {fileID: 778330464, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 778330464, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_17
+      m_Hash: 779693816
+      m_Sprite: {fileID: -1282293562, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1282293562, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_18
+      m_Hash: 1053176681
+      m_Sprite: {fileID: -2086259508, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2086259508, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_19
+      m_Hash: 163644415
+      m_Sprite: {fileID: 1825821915, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1825821915, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_20
+      m_Hash: 456190104
+      m_Sprite: {fileID: 1485530183, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1485530183, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_21
+      m_Hash: 741857294
+      m_Sprite: {fileID: 614400523, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 614400523, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    - m_Name: GirlSample_Fireball_UpLeft_22
+      m_Hash: 893290932
+      m_Sprite: {fileID: 415469015, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 415469015, guid: b79d0c269bbeecc45acc8f4344151926, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 23
+  - m_Name: Fireball_UpRight
+    m_Hash: 479867637
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Fireball_UpRight_0
+      m_Hash: 418886156
+      m_Sprite: {fileID: -1564278557, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1564278557, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_1
+      m_Hash: 804291226
+      m_Sprite: {fileID: 1117080104, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1117080104, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_2
+      m_Hash: 922342176
+      m_Sprite: {fileID: 224297453, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 224297453, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_3
+      m_Hash: 33481654
+      m_Sprite: {fileID: -2114502998, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2114502998, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_4
+      m_Hash: 530216469
+      m_Sprite: {fileID: -1465379358, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1465379358, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_5
+      m_Hash: 681395843
+      m_Sprite: {fileID: -470354507, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -470354507, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_6
+      m_Hash: 831788857
+      m_Sprite: {fileID: 1060712161, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1060712161, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_7
+      m_Hash: 110307247
+      m_Sprite: {fileID: -514253394, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -514253394, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_8
+      m_Hash: 371997246
+      m_Sprite: {fileID: -231368523, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -231368523, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_9
+      m_Hash: 556468904
+      m_Sprite: {fileID: -79625842, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -79625842, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_10
+      m_Hash: 607016441
+      m_Sprite: {fileID: -1964140780, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1964140780, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_11
+      m_Hash: 321480047
+      m_Sprite: {fileID: -2033050721, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2033050721, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_12
+      m_Hash: 169882837
+      m_Sprite: {fileID: -703352553, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -703352553, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_13
+      m_Hash: 1025967171
+      m_Sprite: {fileID: -1276745620, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1276745620, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_14
+      m_Hash: 591630816
+      m_Sprite: {fileID: -238846111, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -238846111, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_15
+      m_Hash: 340042102
+      m_Sprite: {fileID: -1920620400, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1920620400, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_16
+      m_Hash: 223211724
+      m_Sprite: {fileID: 334491098, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 334491098, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_17
+      m_Hash: 977977434
+      m_Sprite: {fileID: -1075775139, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1075775139, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_18
+      m_Hash: 720756171
+      m_Sprite: {fileID: 1681025369, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1681025369, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_19
+      m_Hash: 502459741
+      m_Sprite: {fileID: -768323030, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -768323030, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_20
+      m_Hash: 251856442
+      m_Sprite: {fileID: 88635091, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 88635091, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_21
+      m_Hash: 939800236
+      m_Sprite: {fileID: 171810759, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 171810759, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    - m_Name: GirlSample_Fireball_UpRight_22
+      m_Hash: 554526486
+      m_Sprite: {fileID: 1073009697, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1073009697, guid: ef70e189b09831d4880f88413f1e1419, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 23
+  - m_Name: Jump_Down
+    m_Hash: 260872740
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Jump_Down_0
+      m_Hash: 130540812
+      m_Sprite: {fileID: 667437195, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 667437195, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    - m_Name: GirlSample_Jump_Down_1
+      m_Hash: 817943962
+      m_Sprite: {fileID: -1682076989, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1682076989, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    - m_Name: GirlSample_Jump_Down_2
+      m_Hash: 701072416
+      m_Sprite: {fileID: -1601168599, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1601168599, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    - m_Name: GirlSample_Jump_Down_3
+      m_Hash: 516863158
+      m_Sprite: {fileID: -361134105, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -361134105, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    - m_Name: GirlSample_Jump_Down_4
+      m_Hash: 11149589
+      m_Sprite: {fileID: -544729394, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -544729394, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    - m_Name: GirlSample_Jump_Down_5
+      m_Hash: 934089091
+      m_Sprite: {fileID: 1562000164, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1562000164, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    - m_Name: GirlSample_Jump_Down_6
+      m_Hash: 782516281
+      m_Sprite: {fileID: 1052304325, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1052304325, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    - m_Name: GirlSample_Jump_Down_7
+      m_Hash: 430141615
+      m_Sprite: {fileID: -1522611422, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1522611422, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    - m_Name: GirlSample_Jump_Down_8
+      m_Hash: 152857918
+      m_Sprite: {fileID: -2069602441, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2069602441, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    - m_Name: GirlSample_Jump_Down_9
+      m_Hash: 1041980840
+      m_Sprite: {fileID: -1338679717, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1338679717, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    - m_Name: GirlSample_Jump_Down_10
+      m_Hash: 615605678
+      m_Sprite: {fileID: 965325010, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 965325010, guid: 329d19c6fd995304880e70cc3778888e, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 11
+  - m_Name: Jump_DownLeft
+    m_Hash: 800064751
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Jump_DownLeft_0
+      m_Hash: 654200223
+      m_Sprite: {fileID: -990509451, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -990509451, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    - m_Name: GirlSample_Jump_DownLeft_1
+      m_Hash: 301563145
+      m_Sprite: {fileID: -1040994454, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1040994454, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    - m_Name: GirlSample_Jump_DownLeft_2
+      m_Hash: 149957811
+      m_Sprite: {fileID: 210632108, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 210632108, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    - m_Name: GirlSample_Jump_DownLeft_3
+      m_Hash: 1073159205
+      m_Sprite: {fileID: -110803931, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -110803931, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    - m_Name: GirlSample_Jump_DownLeft_4
+      m_Hash: 563317126
+      m_Sprite: {fileID: 398053408, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 398053408, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    - m_Name: GirlSample_Jump_DownLeft_5
+      m_Hash: 378845456
+      m_Sprite: {fileID: 1398924024, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1398924024, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    - m_Name: GirlSample_Jump_DownLeft_6
+      m_Hash: 262006954
+      m_Sprite: {fileID: -1898076059, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1898076059, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    - m_Name: GirlSample_Jump_DownLeft_7
+      m_Hash: 949671996
+      m_Sprite: {fileID: -1329806280, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1329806280, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    - m_Name: GirlSample_Jump_DownLeft_8
+      m_Hash: 673564077
+      m_Sprite: {fileID: 943532526, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 943532526, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    - m_Name: GirlSample_Jump_DownLeft_9
+      m_Hash: 522384699
+      m_Sprite: {fileID: -1869381116, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1869381116, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    - m_Name: GirlSample_Jump_DownLeft_10
+      m_Hash: 219586296
+      m_Sprite: {fileID: -449957427, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -449957427, guid: 962b835058150394a9c2dfec1c8b01dc, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 11
+  - m_Name: Jump_DownRight
+    m_Hash: 126071924
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Jump_DownRight_0
+      m_Hash: 637310895
+      m_Sprite: {fileID: -334746287, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -334746287, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    - m_Name: GirlSample_Jump_DownRight_1
+      m_Hash: 318482233
+      m_Sprite: {fileID: -424593642, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -424593642, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    - m_Name: GirlSample_Jump_DownRight_2
+      m_Hash: 200472195
+      m_Sprite: {fileID: -964651499, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -964651499, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    - m_Name: GirlSample_Jump_DownRight_3
+      m_Hash: 1022739989
+      m_Sprite: {fileID: -771343607, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -771343607, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    - m_Name: GirlSample_Jump_DownRight_4
+      m_Hash: 579949494
+      m_Sprite: {fileID: 979324146, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 979324146, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    - m_Name: GirlSample_Jump_DownRight_5
+      m_Hash: 362177312
+      m_Sprite: {fileID: -113980506, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -113980506, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    - m_Name: GirlSample_Jump_DownRight_6
+      m_Hash: 211759770
+      m_Sprite: {fileID: 1802939903, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1802939903, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    - m_Name: GirlSample_Jump_DownRight_7
+      m_Hash: 999817740
+      m_Sprite: {fileID: -1348067357, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1348067357, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    - m_Name: GirlSample_Jump_DownRight_8
+      m_Hash: 723984285
+      m_Sprite: {fileID: -1724760592, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1724760592, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    - m_Name: GirlSample_Jump_DownRight_9
+      m_Hash: 471871243
+      m_Sprite: {fileID: 1630584824, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1630584824, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    - m_Name: GirlSample_Jump_DownRight_10
+      m_Hash: 730639502
+      m_Sprite: {fileID: 270017756, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 270017756, guid: e0b1119509ddcf64790d9d266aea3e48, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 11
+  - m_Name: Jump_Left
+    m_Hash: 689237367
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Jump_Left_0
+      m_Hash: 405825948
+      m_Sprite: {fileID: -1598811987, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1598811987, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    - m_Name: GirlSample_Jump_Left_1
+      m_Hash: 792156426
+      m_Sprite: {fileID: -1742584559, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1742584559, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    - m_Name: GirlSample_Jump_Left_2
+      m_Hash: 910035120
+      m_Sprite: {fileID: -1358292344, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1358292344, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    - m_Name: GirlSample_Jump_Left_3
+      m_Hash: 20527142
+      m_Sprite: {fileID: -650935897, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -650935897, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    - m_Name: GirlSample_Jump_Left_4
+      m_Hash: 526232965
+      m_Sprite: {fileID: 462321632, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 462321632, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    - m_Name: GirlSample_Jump_Left_5
+      m_Hash: 677027091
+      m_Sprite: {fileID: 170149306, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 170149306, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    - m_Name: GirlSample_Jump_Left_6
+      m_Hash: 827575465
+      m_Sprite: {fileID: -1920607044, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1920607044, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    - m_Name: GirlSample_Jump_Left_7
+      m_Hash: 106232895
+      m_Sprite: {fileID: -188965537, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -188965537, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    - m_Name: GirlSample_Jump_Left_8
+      m_Hash: 384557486
+      m_Sprite: {fileID: -1087622538, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1087622538, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    - m_Name: GirlSample_Jump_Left_9
+      m_Hash: 569168184
+      m_Sprite: {fileID: -825264471, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -825264471, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    - m_Name: GirlSample_Jump_Left_10
+      m_Hash: 350290278
+      m_Sprite: {fileID: -557958711, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -557958711, guid: 94ce1028a62c4e24283213c82e641901, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 11
+  - m_Name: Jump_Right
+    m_Hash: 961612779
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Jump_Right_0
+      m_Hash: 1007355953
+      m_Sprite: {fileID: 799313336, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 799313336, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    - m_Name: GirlSample_Jump_Right_1
+      m_Hash: 185350311
+      m_Sprite: {fileID: 1515795495, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1515795495, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    - m_Name: GirlSample_Jump_Right_2
+      m_Hash: 302344477
+      m_Sprite: {fileID: 1616274408, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1616274408, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    - m_Name: GirlSample_Jump_Right_3
+      m_Hash: 620910987
+      m_Sprite: {fileID: -1643478726, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1643478726, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    - m_Name: GirlSample_Jump_Right_4
+      m_Hash: 996592680
+      m_Sprite: {fileID: -1983991385, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1983991385, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    - m_Name: GirlSample_Jump_Right_5
+      m_Hash: 207748286
+      m_Sprite: {fileID: 481842956, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 481842956, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    - m_Name: GirlSample_Jump_Right_6
+      m_Hash: 359181572
+      m_Sprite: {fileID: -1381336785, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1381336785, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    - m_Name: GirlSample_Jump_Right_7
+      m_Hash: 577740178
+      m_Sprite: {fileID: 1964789551, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1964789551, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    - m_Name: GirlSample_Jump_Right_8
+      m_Hash: 852525059
+      m_Sprite: {fileID: -2034530948, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2034530948, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    - m_Name: GirlSample_Jump_Right_9
+      m_Hash: 98021525
+      m_Sprite: {fileID: -1508517979, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1508517979, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    - m_Name: GirlSample_Jump_Right_10
+      m_Hash: 1017308498
+      m_Sprite: {fileID: -1847092410, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1847092410, guid: e78ab486c56fd3842ac6b4e62054fee6, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 11
+  - m_Name: Jump_Up
+    m_Hash: 474795003
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Jump_Up_0
+      m_Hash: 477132100
+      m_Sprite: {fileID: -631658411, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -631658411, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    - m_Name: GirlSample_Jump_Up_1
+      m_Hash: 729236946
+      m_Sprite: {fileID: 1106655461, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1106655461, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    - m_Name: GirlSample_Jump_Up_2
+      m_Hash: 847123560
+      m_Sprite: {fileID: 1404059789, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1404059789, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    - m_Name: GirlSample_Jump_Up_3
+      m_Hash: 91825406
+      m_Sprite: {fileID: 1374447659, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1374447659, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    - m_Name: GirlSample_Jump_Up_4
+      m_Hash: 454930781
+      m_Sprite: {fileID: -958888843, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -958888843, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    - m_Name: GirlSample_Jump_Up_5
+      m_Hash: 739934667
+      m_Sprite: {fileID: -57736916, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -57736916, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    - m_Name: GirlSample_Jump_Up_6
+      m_Hash: 890490993
+      m_Sprite: {fileID: -1072671200, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1072671200, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    - m_Name: GirlSample_Jump_Up_7
+      m_Hash: 34922727
+      m_Sprite: {fileID: -1095756459, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1095756459, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    - m_Name: GirlSample_Jump_Up_8
+      m_Hash: 313261430
+      m_Sprite: {fileID: -964524685, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -964524685, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    - m_Name: GirlSample_Jump_Up_9
+      m_Hash: 632081888
+      m_Sprite: {fileID: 99356172, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 99356172, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    - m_Name: GirlSample_Jump_Up_10
+      m_Hash: 481106844
+      m_Sprite: {fileID: 1122485610, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1122485610, guid: e1b2b8b5757d2e741b025b3d0ed4d90f, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 11
+  - m_Name: Jump_UpLeft
+    m_Hash: 90259111
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Jump_UpLeft_0
+      m_Hash: 615281710
+      m_Sprite: {fileID: -902393052, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -902393052, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    - m_Name: GirlSample_Jump_UpLeft_1
+      m_Hash: 329991352
+      m_Sprite: {fileID: 1852244061, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1852244061, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    - m_Name: GirlSample_Jump_UpLeft_2
+      m_Hash: 178394370
+      m_Sprite: {fileID: 360105434, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 360105434, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    - m_Name: GirlSample_Jump_UpLeft_3
+      m_Hash: 1034233236
+      m_Sprite: {fileID: -773424449, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -773424449, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    - m_Name: GirlSample_Jump_UpLeft_4
+      m_Hash: 599896119
+      m_Sprite: {fileID: 155269191, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 155269191, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    - m_Name: GirlSample_Jump_UpLeft_5
+      m_Hash: 348553377
+      m_Sprite: {fileID: 531842539, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 531842539, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    - m_Name: GirlSample_Jump_UpLeft_6
+      m_Hash: 231723291
+      m_Sprite: {fileID: 1973131786, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1973131786, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    - m_Name: GirlSample_Jump_UpLeft_7
+      m_Hash: 986243469
+      m_Sprite: {fileID: -36373523, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -36373523, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    - m_Name: GirlSample_Jump_UpLeft_8
+      m_Hash: 712506396
+      m_Sprite: {fileID: -841175045, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -841175045, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    - m_Name: GirlSample_Jump_UpLeft_9
+      m_Hash: 493931658
+      m_Sprite: {fileID: -664487806, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -664487806, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    - m_Name: GirlSample_Jump_UpLeft_10
+      m_Hash: 837963739
+      m_Sprite: {fileID: 1962465073, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1962465073, guid: 73791f245b93c1e479c35d80853b87d4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 11
+  - m_Name: Jump_UpRight
+    m_Hash: 1068412140
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Jump_UpRight_0
+      m_Hash: 421021324
+      m_Sprite: {fileID: -1790569182, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1790569182, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    - m_Name: GirlSample_Jump_UpRight_1
+      m_Hash: 773813786
+      m_Sprite: {fileID: 336016244, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 336016244, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    - m_Name: GirlSample_Jump_UpRight_2
+      m_Hash: 924198816
+      m_Sprite: {fileID: 793712741, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 793712741, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    - m_Name: GirlSample_Jump_UpRight_3
+      m_Hash: 1120054
+      m_Sprite: {fileID: -344614249, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -344614249, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    - m_Name: GirlSample_Jump_UpRight_4
+      m_Hash: 511017621
+      m_Sprite: {fileID: 1128619284, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1128619284, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    - m_Name: GirlSample_Jump_UpRight_5
+      m_Hash: 695382531
+      m_Sprite: {fileID: -756927345, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -756927345, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    - m_Name: GirlSample_Jump_UpRight_6
+      m_Hash: 813425593
+      m_Sprite: {fileID: -2001194775, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2001194775, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    - m_Name: GirlSample_Jump_UpRight_7
+      m_Hash: 125621039
+      m_Sprite: {fileID: -1913223956, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1913223956, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    - m_Name: GirlSample_Jump_UpRight_8
+      m_Hash: 398708414
+      m_Sprite: {fileID: -272456175, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -272456175, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    - m_Name: GirlSample_Jump_UpRight_9
+      m_Hash: 549781032
+      m_Sprite: {fileID: -1371685811, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1371685811, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    - m_Name: GirlSample_Jump_UpRight_10
+      m_Hash: 156711213
+      m_Sprite: {fileID: 1264425297, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1264425297, guid: fde23b5a20ce5e44585104129fe07adf, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 11
+  - m_Name: Melee_Down
+    m_Hash: 1057214673
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Melee_Down_0
+      m_Hash: 144923462
+      m_Sprite: {fileID: -482602752, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -482602752, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+    - m_Name: GirlSample_Melee_Down_1
+      m_Hash: 1067740112
+      m_Sprite: {fileID: 265628864, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 265628864, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+    - m_Name: GirlSample_Melee_Down_2
+      m_Hash: 648886890
+      m_Sprite: {fileID: 357616297, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 357616297, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+    - m_Name: GirlSample_Melee_Down_3
+      m_Hash: 296356604
+      m_Sprite: {fileID: 1854742915, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1854742915, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+    - m_Name: GirlSample_Melee_Down_4
+      m_Hash: 265199455
+      m_Sprite: {fileID: -1425701140, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1425701140, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+    - m_Name: GirlSample_Melee_Down_5
+      m_Hash: 952741833
+      m_Sprite: {fileID: -165149165, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -165149165, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+    - m_Name: GirlSample_Melee_Down_6
+      m_Hash: 566296179
+      m_Sprite: {fileID: 2075283963, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2075283963, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+    - m_Name: GirlSample_Melee_Down_7
+      m_Hash: 382193381
+      m_Sprite: {fileID: 101099587, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 101099587, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+    - m_Name: GirlSample_Melee_Down_8
+      m_Hash: 108581748
+      m_Sprite: {fileID: -100828165, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -100828165, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+    - m_Name: GirlSample_Melee_Down_9
+      m_Hash: 830464994
+      m_Sprite: {fileID: 191834978, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 191834978, guid: 1e5a2bf15b4a3664293bd964da2cfd15, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Melee_DownLeft
+    m_Hash: 969367108
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Melee_DownLeft_0
+      m_Hash: 979752062
+      m_Sprite: {fileID: 2001033270, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2001033270, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+    - m_Name: GirlSample_Melee_DownLeft_1
+      m_Hash: 224584936
+      m_Sprite: {fileID: -1462861302, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1462861302, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+    - m_Name: GirlSample_Melee_DownLeft_2
+      m_Hash: 342603090
+      m_Sprite: {fileID: 1932591793, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1932591793, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+    - m_Name: GirlSample_Melee_DownLeft_3
+      m_Hash: 594314692
+      m_Sprite: {fileID: 2084453775, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2084453775, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+    - m_Name: GirlSample_Melee_DownLeft_4
+      m_Hash: 1023938663
+      m_Sprite: {fileID: 228573731, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 228573731, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+    - m_Name: GirlSample_Melee_DownLeft_5
+      m_Hash: 168763633
+      m_Sprite: {fileID: 810230390, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 810230390, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+    - m_Name: GirlSample_Melee_DownLeft_6
+      m_Hash: 319189323
+      m_Sprite: {fileID: 1876423598, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1876423598, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+    - m_Name: GirlSample_Melee_DownLeft_7
+      m_Hash: 604062173
+      m_Sprite: {fileID: -141039448, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -141039448, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+    - m_Name: GirlSample_Melee_DownLeft_8
+      m_Hash: 884890700
+      m_Sprite: {fileID: -522341377, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -522341377, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+    - m_Name: GirlSample_Melee_DownLeft_9
+      m_Hash: 62483674
+      m_Sprite: {fileID: 307452087, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 307452087, guid: 11db3797f8ba33c4080692f8a2355eec, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Melee_DownRight
+    m_Hash: 114407758
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Melee_DownRight_0
+      m_Hash: 841866968
+      m_Sprite: {fileID: 552459226, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 552459226, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+    - m_Name: GirlSample_Melee_DownRight_1
+      m_Hash: 86699598
+      m_Sprite: {fileID: -698766715, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -698766715, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+    - m_Name: GirlSample_Melee_DownRight_2
+      m_Hash: 472104948
+      m_Sprite: {fileID: 1810354495, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1810354495, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+    - m_Name: GirlSample_Melee_DownRight_3
+      m_Hash: 723816290
+      m_Sprite: {fileID: 735951781, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 735951781, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+    - m_Name: GirlSample_Melee_DownRight_4
+      m_Hash: 893393601
+      m_Sprite: {fileID: -1063099203, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1063099203, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+    - m_Name: GirlSample_Melee_DownRight_5
+      m_Hash: 38218327
+      m_Sprite: {fileID: -933787834, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -933787834, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+    - m_Name: GirlSample_Melee_DownRight_6
+      m_Hash: 458128365
+      m_Sprite: {fileID: 1882889785, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1882889785, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+    - m_Name: GirlSample_Melee_DownRight_7
+      m_Hash: 743000955
+      m_Sprite: {fileID: 1113262812, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1113262812, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+    - m_Name: GirlSample_Melee_DownRight_8
+      m_Hash: 1022777066
+      m_Sprite: {fileID: -135501011, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -135501011, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+    - m_Name: GirlSample_Melee_DownRight_9
+      m_Hash: 200369788
+      m_Sprite: {fileID: 261619826, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 261619826, guid: cdd63e1b4f4195e4dbee01c42945e5b9, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Melee_Left
+    m_Hash: 429631362
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Melee_Left_0
+      m_Hash: 391436246
+      m_Sprite: {fileID: 187526889, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 187526889, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+    - m_Name: GirlSample_Melee_Left_1
+      m_Hash: 542369600
+      m_Sprite: {fileID: 75571927, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 75571927, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+    - m_Name: GirlSample_Melee_Left_2
+      m_Hash: 962246394
+      m_Sprite: {fileID: -816686916, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -816686916, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+    - m_Name: GirlSample_Melee_Left_3
+      m_Hash: 241010284
+      m_Sprite: {fileID: -329776861, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -329776861, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+    - m_Name: GirlSample_Melee_Left_4
+      m_Hash: 272176079
+      m_Sprite: {fileID: -104542840, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -104542840, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+    - m_Name: GirlSample_Melee_Left_5
+      m_Hash: 658383705
+      m_Sprite: {fileID: -101645940, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -101645940, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+    - m_Name: GirlSample_Melee_Left_6
+      m_Hash: 1043821283
+      m_Sprite: {fileID: -1511877829, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1511877829, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+    - m_Name: GirlSample_Melee_Left_7
+      m_Hash: 154157685
+      m_Sprite: {fileID: 1819701317, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1819701317, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+    - m_Name: GirlSample_Melee_Left_8
+      m_Hash: 428826596
+      m_Sprite: {fileID: -813585093, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -813585093, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+    - m_Name: GirlSample_Melee_Left_9
+      m_Hash: 780693362
+      m_Sprite: {fileID: 740896683, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 740896683, guid: 34de73b6ee3819d49a0169ecb27b6fd7, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Melee_Right
+    m_Hash: 884376114
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Melee_Right_0
+      m_Hash: 709739521
+      m_Sprite: {fileID: -384572307, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -384572307, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+    - m_Name: GirlSample_Melee_Right_1
+      m_Hash: 491451543
+      m_Sprite: {fileID: 2113839188, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2113839188, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+    - m_Name: GirlSample_Melee_Right_2
+      m_Hash: 71542061
+      m_Sprite: {fileID: -2111694908, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2111694908, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+    - m_Name: GirlSample_Melee_Right_3
+      m_Hash: 860132795
+      m_Sprite: {fileID: 1693318883, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1693318883, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+    - m_Name: GirlSample_Melee_Right_4
+      m_Hash: 757071896
+      m_Sprite: {fileID: -1625238066, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1625238066, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+    - m_Name: GirlSample_Melee_Right_5
+      m_Hash: 438775950
+      m_Sprite: {fileID: -1372753581, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1372753581, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+    - m_Name: GirlSample_Melee_Right_6
+      m_Hash: 53371188
+      m_Sprite: {fileID: -2020085498, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2020085498, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+    - m_Name: GirlSample_Melee_Right_7
+      m_Hash: 875123106
+      m_Sprite: {fileID: 1591170254, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1591170254, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+    - m_Name: GirlSample_Melee_Right_8
+      m_Hash: 613829683
+      m_Sprite: {fileID: -863519747, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -863519747, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+    - m_Name: GirlSample_Melee_Right_9
+      m_Hash: 328301733
+      m_Sprite: {fileID: 465630903, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 465630903, guid: 9f927d2085039ee4c8a4aaa261998133, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Melee_Up
+    m_Hash: 469887642
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Melee_Up_0
+      m_Hash: 456119793
+      m_Sprite: {fileID: -896545571, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -896545571, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+    - m_Name: GirlSample_Melee_Up_1
+      m_Hash: 740877671
+      m_Sprite: {fileID: 353563239, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 353563239, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+    - m_Name: GirlSample_Melee_Up_2
+      m_Hash: 891401437
+      m_Sprite: {fileID: 650158797, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 650158797, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+    - m_Name: GirlSample_Melee_Up_3
+      m_Hash: 36078667
+      m_Sprite: {fileID: -496351089, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -496351089, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+    - m_Name: GirlSample_Melee_Up_4
+      m_Hash: 474092008
+      m_Sprite: {fileID: 1056056513, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1056056513, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+    - m_Name: GirlSample_Melee_Up_5
+      m_Hash: 725950846
+      m_Sprite: {fileID: -476458806, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -476458806, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+    - m_Name: GirlSample_Melee_Up_6
+      m_Hash: 843870404
+      m_Sprite: {fileID: -56056961, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -56056961, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+    - m_Name: GirlSample_Melee_Up_7
+      m_Hash: 88817746
+      m_Sprite: {fileID: -924136606, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -924136606, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+    - m_Name: GirlSample_Melee_Up_8
+      m_Hash: 368336323
+      m_Sprite: {fileID: -297649902, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -297649902, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+    - m_Name: GirlSample_Melee_Up_9
+      m_Hash: 586378581
+      m_Sprite: {fileID: -1427140189, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1427140189, guid: c83acf6894314a74d8ba1e08b59478b8, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Melee_UpLeft
+    m_Hash: 983806814
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Melee_UpLeft_0
+      m_Hash: 48431694
+      m_Sprite: {fileID: 1916986901, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1916986901, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+    - m_Name: GirlSample_Melee_UpLeft_1
+      m_Hash: 904147672
+      m_Sprite: {fileID: 1411589084, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1411589084, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+    - m_Name: GirlSample_Melee_UpLeft_2
+      m_Hash: 753754978
+      m_Sprite: {fileID: 667188138, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 667188138, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+    - m_Name: GirlSample_Melee_UpLeft_3
+      m_Hash: 468341748
+      m_Sprite: {fileID: -243191877, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -243191877, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+    - m_Name: GirlSample_Melee_UpLeft_4
+      m_Hash: 93242967
+      m_Sprite: {fileID: 1759038201, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1759038201, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+    - m_Name: GirlSample_Melee_UpLeft_5
+      m_Hash: 847902401
+      m_Sprite: {fileID: -1086279668, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1086279668, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+    - m_Name: GirlSample_Melee_UpLeft_6
+      m_Hash: 729851771
+      m_Sprite: {fileID: -382910183, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -382910183, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+    - m_Name: GirlSample_Melee_UpLeft_7
+      m_Hash: 478648301
+      m_Sprite: {fileID: 1529373378, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1529373378, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+    - m_Name: GirlSample_Melee_UpLeft_8
+      m_Hash: 205032060
+      m_Sprite: {fileID: 1637943271, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1637943271, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+    - m_Name: GirlSample_Melee_UpLeft_9
+      m_Hash: 994032362
+      m_Sprite: {fileID: -505827918, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -505827918, guid: da55ff346eff01a45bc76c2686f3c957, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: Melee_UpRight
+    m_Hash: 993010905
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Melee_UpRight_0
+      m_Hash: 344746146
+      m_Sprite: {fileID: -1538270264, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1538270264, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+    - m_Name: GirlSample_Melee_UpRight_1
+      m_Hash: 596334644
+      m_Sprite: {fileID: -1065211942, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1065211942, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+    - m_Name: GirlSample_Melee_UpRight_2
+      m_Hash: 981600654
+      m_Sprite: {fileID: -1753801245, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1753801245, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+    - m_Name: GirlSample_Melee_UpRight_3
+      m_Hash: 226834712
+      m_Sprite: {fileID: 1913666182, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1913666182, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+    - m_Name: GirlSample_Melee_UpRight_4
+      m_Hash: 333556923
+      m_Sprite: {fileID: 1060770714, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1060770714, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+    - m_Name: GirlSample_Melee_UpRight_5
+      m_Hash: 619093037
+      m_Sprite: {fileID: 1633080231, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1633080231, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+    - m_Name: GirlSample_Melee_UpRight_6
+      m_Hash: 1039125911
+      m_Sprite: {fileID: 452580080, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 452580080, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+    - m_Name: GirlSample_Melee_UpRight_7
+      m_Hash: 183041281
+      m_Sprite: {fileID: 1324712508, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1324712508, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+    - m_Name: GirlSample_Melee_UpRight_8
+      m_Hash: 441966736
+      m_Sprite: {fileID: 1293626788, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1293626788, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+    - m_Name: GirlSample_Melee_UpRight_9
+      m_Hash: 760270854
+      m_Sprite: {fileID: -1194282283, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1194282283, guid: 48ba40617db94fc40babb34f2d4deca9, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 10
+  - m_Name: ReadyIdle_Down
+    m_Hash: 147943251
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_ReadyIdle_Down_0
+      m_Hash: 775463364
+      m_Sprite: {fileID: 671633386, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 671633386, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_1
+      m_Hash: 423596370
+      m_Sprite: {fileID: -594962240, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -594962240, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_2
+      m_Hash: 3588328
+      m_Sprite: {fileID: -1007051051, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1007051051, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_3
+      m_Hash: 926019710
+      m_Sprite: {fileID: 2127472727, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2127472727, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_4
+      m_Hash: 693462493
+      m_Sprite: {fileID: -1030302428, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1030302428, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_5
+      m_Hash: 508712267
+      m_Sprite: {fileID: -1659574757, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1659574757, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_6
+      m_Hash: 123405553
+      m_Sprite: {fileID: 47739435, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 47739435, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_7
+      m_Hash: 811349095
+      m_Sprite: {fileID: 1952211613, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1952211613, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_8
+      m_Hash: 551758326
+      m_Sprite: {fileID: -666559124, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -666559124, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_9
+      m_Hash: 400824672
+      m_Sprite: {fileID: 1655260402, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1655260402, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_10
+      m_Hash: 824692840
+      m_Sprite: {fileID: -1999407418, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1999407418, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_11
+      m_Hash: 102818046
+      m_Sprite: {fileID: 1491069206, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1491069206, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_12
+      m_Hash: 522826052
+      m_Sprite: {fileID: 729032680, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 729032680, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Down_13
+      m_Hash: 674136530
+      m_Sprite: {fileID: -707850485, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -707850485, guid: 479d02604eec55244ae7c02b8446558e, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 14
+  - m_Name: ReadyIdle_DownLeft
+    m_Hash: 541219323
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_ReadyIdle_DownLeft_0
+      m_Hash: 855821172
+      m_Sprite: {fileID: -1187644304, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1187644304, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_1
+      m_Hash: 67501026
+      m_Sprite: {fileID: 910247608, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 910247608, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_2
+      m_Hash: 487369304
+      m_Sprite: {fileID: 368645202, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 368645202, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_3
+      m_Hash: 705403598
+      m_Sprite: {fileID: -836219644, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -836219644, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_4
+      m_Hash: 879693677
+      m_Sprite: {fileID: -84214710, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -84214710, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_5
+      m_Hash: 57163771
+      m_Sprite: {fileID: -512594163, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -512594163, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_6
+      m_Hash: 442592833
+      m_Sprite: {fileID: 442309650, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 442309650, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_7
+      m_Hash: 761683671
+      m_Sprite: {fileID: -705274072, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -705274072, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_8
+      m_Hash: 1037648710
+      m_Sprite: {fileID: -133343601, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -133343601, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_9
+      m_Hash: 182350800
+      m_Sprite: {fileID: 1119175136, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1119175136, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_10
+      m_Hash: 987453838
+      m_Sprite: {fileID: -1613915423, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1613915423, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_11
+      m_Hash: 232548632
+      m_Sprite: {fileID: 1720579711, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1720579711, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_12
+      m_Hash: 349517986
+      m_Sprite: {fileID: -1190629414, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1190629414, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownLeft_13
+      m_Hash: 600967220
+      m_Sprite: {fileID: 1686859018, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1686859018, guid: c5c7edf56c1237d40849d681412d9bea, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 14
+  - m_Name: ReadyIdle_DownRight
+    m_Hash: 488018516
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_ReadyIdle_DownRight_0
+      m_Hash: 305221849
+      m_Sprite: {fileID: -1091212837, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1091212837, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_1
+      m_Hash: 624320591
+      m_Sprite: {fileID: -1426283881, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1426283881, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_2
+      m_Hash: 1010774517
+      m_Sprite: {fileID: 911539240, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 911539240, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_3
+      m_Hash: 188219747
+      m_Sprite: {fileID: -892732947, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -892732947, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_4
+      m_Hash: 358388928
+      m_Sprite: {fileID: 54831143, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 54831143, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_5
+      m_Hash: 576431190
+      m_Sprite: {fileID: -1529610653, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1529610653, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_6
+      m_Hash: 995292652
+      m_Sprite: {fileID: -577925680, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -577925680, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_7
+      m_Hash: 206947706
+      m_Sprite: {fileID: -2118475708, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2118475708, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_8
+      m_Hash: 485153003
+      m_Sprite: {fileID: 1738584989, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1738584989, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_9
+      m_Hash: 737011837
+      m_Sprite: {fileID: -1163133935, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1163133935, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_10
+      m_Hash: 316519744
+      m_Sprite: {fileID: 296879916, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 296879916, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_11
+      m_Hash: 635078102
+      m_Sprite: {fileID: 1901862886, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1901862886, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_12
+      m_Hash: 1020515436
+      m_Sprite: {fileID: -1455713245, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1455713245, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    - m_Name: GirlSample_ReadyIdle_DownRight_13
+      m_Hash: 198501626
+      m_Sprite: {fileID: -815782968, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -815782968, guid: 17b46c602b7e92f43b0c0fa548e62d4a, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 14
+  - m_Name: ReadyIdle_Left
+    m_Hash: 776542208
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_ReadyIdle_Left_0
+      m_Hash: 835661140
+      m_Sprite: {fileID: -696556500, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -696556500, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_1
+      m_Hash: 113778114
+      m_Sprite: {fileID: -45574027, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -45574027, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_2
+      m_Hash: 532761720
+      m_Sprite: {fileID: 1772837654, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1772837654, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_3
+      m_Hash: 684096750
+      m_Sprite: {fileID: -1095049926, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1095049926, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_4
+      m_Hash: 916646221
+      m_Sprite: {fileID: 1156107620, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1156107620, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_5
+      m_Hash: 27646427
+      m_Sprite: {fileID: 541609490, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 541609490, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_6
+      m_Hash: 413960289
+      m_Sprite: {fileID: -1237407848, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1237407848, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_7
+      m_Hash: 799783159
+      m_Sprite: {fileID: -119293649, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -119293649, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_8
+      m_Hash: 1058317670
+      m_Sprite: {fileID: -1031583348, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1031583348, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_9
+      m_Hash: 135501296
+      m_Sprite: {fileID: -1200785783, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1200785783, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_10
+      m_Hash: 24622240
+      m_Sprite: {fileID: -531004204, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -531004204, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_11
+      m_Hash: 913343542
+      m_Sprite: {fileID: 1854960298, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1854960298, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_12
+      m_Hash: 796513676
+      m_Sprite: {fileID: -662696503, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -662696503, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Left_13
+      m_Hash: 410969370
+      m_Sprite: {fileID: 162195874, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 162195874, guid: eb8665d80dee0484796c789b19bf7599, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 14
+  - m_Name: ReadyIdle_Right
+    m_Hash: 938979969
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_ReadyIdle_Right_0
+      m_Hash: 698203639
+      m_Sprite: {fileID: -2041807874, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2041807874, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_1
+      m_Hash: 513445217
+      m_Sprite: {fileID: -102129184, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -102129184, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_2
+      m_Hash: 127130843
+      m_Sprite: {fileID: 327929684, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 327929684, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_3
+      m_Hash: 815066189
+      m_Sprite: {fileID: -1553006704, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1553006704, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_4
+      m_Hash: 787511790
+      m_Sprite: {fileID: -1133196381, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1133196381, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_5
+      m_Hash: 435636600
+      m_Sprite: {fileID: -707952674, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -707952674, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_6
+      m_Hash: 16652482
+      m_Sprite: {fileID: -252986766, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -252986766, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_7
+      m_Hash: 939075668
+      m_Sprite: {fileID: 1044243723, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1044243723, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_8
+      m_Hash: 658912709
+      m_Sprite: {fileID: 106689461, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 106689461, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_9
+      m_Hash: 272696659
+      m_Sprite: {fileID: 965320118, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 965320118, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_10
+      m_Hash: 238031970
+      m_Sprite: {fileID: -923336080, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -923336080, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_11
+      m_Hash: 959915252
+      m_Sprite: {fileID: -1114956021, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1114956021, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_12
+      m_Hash: 540964174
+      m_Sprite: {fileID: -548876054, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -548876054, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Right_13
+      m_Hash: 389629400
+      m_Sprite: {fileID: 1254459945, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1254459945, guid: f7707346ceb682042a8e5c4db0a021ff, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 14
+  - m_Name: ReadyIdle_Up
+    m_Hash: 608591072
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_ReadyIdle_Up_0
+      m_Hash: 135307380
+      m_Sprite: {fileID: 1466864317, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1466864317, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_1
+      m_Hash: 1058509026
+      m_Sprite: {fileID: 1236132409, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1236132409, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_2
+      m_Hash: 639549784
+      m_Sprite: {fileID: -660152874, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -660152874, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_3
+      m_Hash: 286912974
+      m_Sprite: {fileID: -744313672, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -744313672, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_4
+      m_Hash: 259875949
+      m_Sprite: {fileID: 1093104640, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1093104640, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_5
+      m_Hash: 947541243
+      m_Sprite: {fileID: -1463966628, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1463966628, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_6
+      m_Hash: 561186113
+      m_Sprite: {fileID: -975488505, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -975488505, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_7
+      m_Hash: 376714711
+      m_Sprite: {fileID: 1949081434, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1949081434, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_8
+      m_Hash: 113977414
+      m_Sprite: {fileID: 700330569, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 700330569, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_9
+      m_Hash: 835459280
+      m_Sprite: {fileID: -1065580824, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1065580824, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_10
+      m_Hash: 975195109
+      m_Sprite: {fileID: 1878195384, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1878195384, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_11
+      m_Hash: 220691315
+      m_Sprite: {fileID: -161599306, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -161599306, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_12
+      m_Hash: 338569929
+      m_Sprite: {fileID: -342389396, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -342389396, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    - m_Name: GirlSample_ReadyIdle_Up_13
+      m_Hash: 589896287
+      m_Sprite: {fileID: 2093449635, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2093449635, guid: c37f83fc87bae56428d11bb45cff3b40, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 14
+  - m_Name: ReadyIdle_UpLeft
+    m_Hash: 684200024
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_ReadyIdle_UpLeft_0
+      m_Hash: 373196062
+      m_Sprite: {fileID: -598157109, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -598157109, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_1
+      m_Hash: 557430152
+      m_Sprite: {fileID: -1594184101, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1594184101, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_2
+      m_Hash: 942728242
+      m_Sprite: {fileID: 2143854124, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2143854124, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_3
+      m_Hash: 255317156
+      m_Sprite: {fileID: 1458676044, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1458676044, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_4
+      m_Hash: 290668807
+      m_Sprite: {fileID: 1910926672, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1910926672, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_5
+      m_Hash: 643068305
+      m_Sprite: {fileID: 205202258, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 205202258, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_6
+      m_Hash: 1063067691
+      m_Sprite: {fileID: -39235499, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -39235499, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_7
+      m_Hash: 140120253
+      m_Sprite: {fileID: 394231543, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 394231543, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_8
+      m_Hash: 417664300
+      m_Sprite: {fileID: -615451312, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -615451312, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_9
+      m_Hash: 803356090
+      m_Sprite: {fileID: 1975910206, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1975910206, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_10
+      m_Hash: 391769478
+      m_Sprite: {fileID: 234970248, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 234970248, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_11
+      m_Hash: 543087888
+      m_Sprite: {fileID: 331483056, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 331483056, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_12
+      m_Hash: 962038954
+      m_Sprite: {fileID: 29060284, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 29060284, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpLeft_13
+      m_Hash: 240172092
+      m_Sprite: {fileID: 1023733784, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1023733784, guid: 95e7f25ee618d104390d4b1f5fa84bd1, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 14
+  - m_Name: ReadyIdle_UpRight
+    m_Hash: 302115407
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_ReadyIdle_UpRight_0
+      m_Hash: 1068754129
+      m_Sprite: {fileID: 1802277696, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1802277696, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_1
+      m_Hash: 146068551
+      m_Sprite: {fileID: -1655864345, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1655864345, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_2
+      m_Hash: 297633277
+      m_Sprite: {fileID: -1352912091, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1352912091, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_3
+      m_Hash: 649770347
+      m_Sprite: {fileID: -62770605, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -62770605, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_4
+      m_Hash: 954081480
+      m_Sprite: {fileID: 1150647618, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1150647618, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_5
+      m_Hash: 265883742
+      m_Sprite: {fileID: -630407384, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -630407384, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_6
+      m_Hash: 382747108
+      m_Sprite: {fileID: 676035889, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 676035889, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_7
+      m_Hash: 567767410
+      m_Sprite: {fileID: 149531348, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 149531348, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_8
+      m_Hash: 828927203
+      m_Sprite: {fileID: -2138826832, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2138826832, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_9
+      m_Hash: 107961461
+      m_Sprite: {fileID: -2138592258, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2138592258, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_10
+      m_Hash: 481017798
+      m_Sprite: {fileID: 1100984507, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1100984507, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_11
+      m_Hash: 732729168
+      m_Sprite: {fileID: -695669547, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -695669547, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_12
+      m_Hash: 849731306
+      m_Sprite: {fileID: 1011245391, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1011245391, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    - m_Name: GirlSample_ReadyIdle_UpRight_13
+      m_Hash: 94563964
+      m_Sprite: {fileID: -1775481106, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1775481106, guid: ec5fcdd64731f8544b2415c7eb685be7, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 14
+  - m_Name: Walk_Down
+    m_Hash: 630520127
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Walk_Down_0
+      m_Hash: 977957996
+      m_Sprite: {fileID: -1047610884, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1047610884, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+    - m_Name: GirlSample_Walk_Down_1
+      m_Hash: 223167738
+      m_Sprite: {fileID: 1518341363, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1518341363, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+    - m_Name: GirlSample_Walk_Down_2
+      m_Hash: 340006208
+      m_Sprite: {fileID: -1390909436, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1390909436, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+    - m_Name: GirlSample_Walk_Down_3
+      m_Hash: 591603158
+      m_Sprite: {fileID: 2137358948, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2137358948, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+    - m_Name: GirlSample_Walk_Down_4
+      m_Hash: 1026011253
+      m_Sprite: {fileID: 1681587827, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1681587827, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+    - m_Name: GirlSample_Walk_Down_5
+      m_Hash: 169902307
+      m_Sprite: {fileID: -465290198, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -465290198, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+    - m_Name: GirlSample_Walk_Down_6
+      m_Hash: 321507673
+      m_Sprite: {fileID: 551004743, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 551004743, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+    - m_Name: GirlSample_Walk_Down_7
+      m_Hash: 607052239
+      m_Sprite: {fileID: 1284455575, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1284455575, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+    - m_Name: GirlSample_Walk_Down_8
+      m_Hash: 881982558
+      m_Sprite: {fileID: 1361551241, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1361551241, guid: 72a465feb85d2ad41b6b53286061ee7c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  - m_Name: Walk_DownLeft
+    m_Hash: 222671127
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Walk_DownLeft_0
+      m_Hash: 26248156
+      m_Sprite: {fileID: 1590186428, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1590186428, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+    - m_Name: GirlSample_Walk_DownLeft_1
+      m_Hash: 915911498
+      m_Sprite: {fileID: -594611415, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -594611415, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+    - m_Name: GirlSample_Walk_DownLeft_2
+      m_Hash: 798941936
+      m_Sprite: {fileID: -902243209, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -902243209, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+    - m_Name: GirlSample_Walk_DownLeft_3
+      m_Hash: 412734054
+      m_Sprite: {fileID: 367462903, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 367462903, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+    - m_Name: GirlSample_Walk_DownLeft_4
+      m_Hash: 117262277
+      m_Sprite: {fileID: 2003714331, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2003714331, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+    - m_Name: GirlSample_Walk_DownLeft_5
+      m_Hash: 838498131
+      m_Sprite: {fileID: -1151870196, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1151870196, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+    - m_Name: GirlSample_Walk_DownLeft_6
+      m_Hash: 687023849
+      m_Sprite: {fileID: 1311453518, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1311453518, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+    - m_Name: GirlSample_Walk_DownLeft_7
+      m_Hash: 536090239
+      m_Sprite: {fileID: -1872503522, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1872503522, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+    - m_Name: GirlSample_Walk_DownLeft_8
+      m_Hash: 256576494
+      m_Sprite: {fileID: 324163615, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 324163615, guid: 3a9dfeeefcd51034b8e9354d367fd6eb, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  - m_Name: Walk_DownRight
+    m_Hash: 872889327
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Walk_DownRight_0
+      m_Hash: 172943691
+      m_Sprite: {fileID: 1976593619, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1976593619, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+    - m_Name: GirlSample_Walk_DownRight_1
+      m_Hash: 1028250077
+      m_Sprite: {fileID: -886350535, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -886350535, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+    - m_Name: GirlSample_Walk_DownRight_2
+      m_Hash: 608208999
+      m_Sprite: {fileID: -674287665, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -674287665, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+    - m_Name: GirlSample_Walk_DownRight_3
+      m_Hash: 323467505
+      m_Sprite: {fileID: 66682347, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 66682347, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+    - m_Name: GirlSample_Walk_DownRight_4
+      m_Hash: 220409170
+      m_Sprite: {fileID: -641327002, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -641327002, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+    - m_Name: GirlSample_Walk_DownRight_5
+      m_Hash: 975445444
+      m_Sprite: {fileID: 1960780936, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1960780936, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+    - m_Name: GirlSample_Walk_DownRight_6
+      m_Hash: 590171262
+      m_Sprite: {fileID: 1710462155, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1710462155, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+    - m_Name: GirlSample_Walk_DownRight_7
+      m_Hash: 338328808
+      m_Sprite: {fileID: 98232917, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 98232917, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+    - m_Name: GirlSample_Walk_DownRight_8
+      m_Hash: 76898681
+      m_Sprite: {fileID: -508511262, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -508511262, guid: b2cfe7f5c6a888b4d94e8cebbea3a35e, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  - m_Name: Walk_Left
+    m_Hash: 51154540
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Walk_Left_0
+      m_Hash: 633207036
+      m_Sprite: {fileID: -1235560083, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1235560083, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+    - m_Name: GirlSample_Walk_Left_1
+      m_Hash: 314230890
+      m_Sprite: {fileID: -1495168422, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1495168422, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+    - m_Name: GirlSample_Walk_Left_2
+      m_Hash: 196319696
+      m_Sprite: {fileID: 225127391, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 225127391, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+    - m_Name: GirlSample_Walk_Left_3
+      m_Hash: 1018472774
+      m_Sprite: {fileID: -34888210, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -34888210, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+    - m_Name: GirlSample_Walk_Left_4
+      m_Hash: 584072421
+      m_Sprite: {fileID: 1947652067, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1947652067, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+    - m_Name: GirlSample_Walk_Left_5
+      m_Hash: 366414963
+      m_Sprite: {fileID: -188943216, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -188943216, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+    - m_Name: GirlSample_Walk_Left_6
+      m_Hash: 215899593
+      m_Sprite: {fileID: -702028459, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -702028459, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+    - m_Name: GirlSample_Walk_Left_7
+      m_Hash: 1004105055
+      m_Sprite: {fileID: 970449662, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 970449662, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+    - m_Name: GirlSample_Walk_Left_8
+      m_Hash: 728133838
+      m_Sprite: {fileID: -655256168, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -655256168, guid: 472b6acf0b3153a4bb0e4a828acdf547, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  - m_Name: Walk_Right
+    m_Hash: 861854308
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Walk_Right_0
+      m_Hash: 834987256
+      m_Sprite: {fileID: -1250075036, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1250075036, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+    - m_Name: GirlSample_Walk_Right_1
+      m_Hash: 113497198
+      m_Sprite: {fileID: 1750555335, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1750555335, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+    - m_Name: GirlSample_Walk_Right_2
+      m_Hash: 533366228
+      m_Sprite: {fileID: 1603353214, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1603353214, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+    - m_Name: GirlSample_Walk_Right_3
+      m_Hash: 684569922
+      m_Sprite: {fileID: 337237628, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 337237628, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+    - m_Name: GirlSample_Walk_Right_4
+      m_Hash: 917053665
+      m_Sprite: {fileID: -1616815339, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1616815339, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+    - m_Name: GirlSample_Walk_Right_5
+      m_Hash: 28184695
+      m_Sprite: {fileID: -1827732071, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1827732071, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+    - m_Name: GirlSample_Walk_Right_6
+      m_Hash: 413614541
+      m_Sprite: {fileID: 602051227, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 602051227, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+    - m_Name: GirlSample_Walk_Right_7
+      m_Hash: 799043931
+      m_Sprite: {fileID: 495991482, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 495991482, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+    - m_Name: GirlSample_Walk_Right_8
+      m_Hash: 1059024074
+      m_Sprite: {fileID: 877622571, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 877622571, guid: 1ff2d726a189de840ab25d5987a28564, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  - m_Name: Walk_Up
+    m_Hash: 947556182
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Walk_Up_0
+      m_Hash: 912791135
+      m_Sprite: {fileID: -1981826409, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1981826409, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+    - m_Name: GirlSample_Walk_Up_1
+      m_Hash: 24061641
+      m_Sprite: {fileID: 664385190, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 664385190, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+    - m_Name: GirlSample_Walk_Up_2
+      m_Hash: 409368435
+      m_Sprite: {fileID: -1286256863, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1286256863, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+    - m_Name: GirlSample_Walk_Up_3
+      m_Hash: 794904549
+      m_Sprite: {fileID: -1099106420, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1099106420, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+    - m_Name: GirlSample_Walk_Up_4
+      m_Hash: 822465094
+      m_Sprite: {fileID: -1808384123, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1808384123, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+    - m_Name: GirlSample_Walk_Up_5
+      m_Hash: 100852432
+      m_Sprite: {fileID: -686657949, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -686657949, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+    - m_Name: GirlSample_Walk_Up_6
+      m_Hash: 520860522
+      m_Sprite: {fileID: 183467561, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 183467561, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+    - m_Name: GirlSample_Walk_Up_7
+      m_Hash: 671908860
+      m_Sprite: {fileID: -212881395, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -212881395, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+    - m_Name: GirlSample_Walk_Up_8
+      m_Hash: 951295597
+      m_Sprite: {fileID: 1703230257, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1703230257, guid: 342e0bea8f760d34ba33e8fca42beec7, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  - m_Name: Walk_UpLeft
+    m_Hash: 955035591
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Walk_UpLeft_0
+      m_Hash: 106545622
+      m_Sprite: {fileID: -1906372121, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1906372121, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+    - m_Name: GirlSample_Walk_UpLeft_1
+      m_Hash: 828305728
+      m_Sprite: {fileID: -1092338151, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1092338151, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+    - m_Name: GirlSample_Walk_UpLeft_2
+      m_Hash: 676831482
+      m_Sprite: {fileID: -133880781, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -133880781, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+    - m_Name: GirlSample_Walk_UpLeft_3
+      m_Hash: 525373548
+      m_Sprite: {fileID: -770910778, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -770910778, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+    - m_Name: GirlSample_Walk_UpLeft_4
+      m_Hash: 20186575
+      m_Sprite: {fileID: 1940997679, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1940997679, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+    - m_Name: GirlSample_Walk_UpLeft_5
+      m_Hash: 909325657
+      m_Sprite: {fileID: -843892254, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -843892254, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+    - m_Name: GirlSample_Walk_UpLeft_6
+      m_Hash: 792356067
+      m_Sprite: {fileID: 727817483, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 727817483, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+    - m_Name: GirlSample_Walk_UpLeft_7
+      m_Hash: 406672501
+      m_Sprite: {fileID: 1722069283, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1722069283, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+    - m_Name: GirlSample_Walk_UpLeft_8
+      m_Hash: 142756324
+      m_Sprite: {fileID: 1202094611, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1202094611, guid: 446471cf347832948803ae0878ba69f4, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  - m_Name: Walk_UpRight
+    m_Hash: 845234213
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: GirlSample_Walk_UpRight_0
+      m_Hash: 714918167
+      m_Sprite: {fileID: 1467724668, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1467724668, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+    - m_Name: GirlSample_Walk_UpRight_1
+      m_Hash: 496761217
+      m_Sprite: {fileID: 2044680060, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2044680060, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+    - m_Name: GirlSample_Walk_UpRight_2
+      m_Hash: 76720187
+      m_Sprite: {fileID: 1139721847, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1139721847, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+    - m_Name: GirlSample_Walk_UpRight_3
+      m_Hash: 865441965
+      m_Sprite: {fileID: 1535868589, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1535868589, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+    - m_Name: GirlSample_Walk_UpRight_4
+      m_Hash: 770772238
+      m_Sprite: {fileID: -1454318452, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1454318452, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+    - m_Name: GirlSample_Walk_UpRight_5
+      m_Hash: 452345240
+      m_Sprite: {fileID: 2017013668, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2017013668, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+    - m_Name: GirlSample_Walk_UpRight_6
+      m_Hash: 67071010
+      m_Sprite: {fileID: -2108669833, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2108669833, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+    - m_Name: GirlSample_Walk_UpRight_7
+      m_Hash: 888691892
+      m_Sprite: {fileID: 770065570, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 770065570, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+    - m_Name: GirlSample_Walk_UpRight_8
+      m_Hash: 608649509
+      m_Sprite: {fileID: -1929698143, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1929698143, guid: 0bf0a8341e356e14ca87657b7c56ce04, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638801116890237545
+  m_Version: 1
