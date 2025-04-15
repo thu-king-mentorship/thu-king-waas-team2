@@ -25,7 +25,7 @@ namespace WAAS.Controllers
         /// <param name="other">The collider that entered the trigger.</param>
         private void OnTriggerEnter(Collider other)
         {
-            if (other.CompareTag("Enemy"))
+            if (other.CompareTag("Enemy") || other.CompareTag("Lightable"))
                 Destroy(gameObject);
         }
     }
