@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - Lighter
+  - Lightable
+  - LightSource
   layers:
   - Default
   - TransparentFX
@@ -16,6 +19,8 @@ TagManager:
   - 
   - 
   - 
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -24,15 +29,13 @@ TagManager:
   - 
   - 
   - 
+  - Lighter
+  - Lightable
+  - LightSource
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - Outside
   - Inside
+  - Outside
   - 
   - 
   - 
