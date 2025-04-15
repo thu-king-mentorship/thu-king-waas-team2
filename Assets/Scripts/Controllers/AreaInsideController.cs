@@ -3,7 +3,10 @@ using WAAS.Managers;
 
 namespace WAAS.Controllers
 {
-    public class InsideAreaController : MonoBehaviour
+    /// <summary>
+    /// Class <c>AreaInsideController</c> is responsible for managing the visibility of outside objects when the player enters or exits a trigger area.
+    /// </summary>
+    public class AreaInsideController : MonoBehaviour
     {
 
         /// <summary>
@@ -14,8 +17,7 @@ namespace WAAS.Controllers
         {
             if (!other.CompareTag("Player"))
                 return;
-            OutsideTransparencyManager.Instance.HideOutside();
-            
+            EnvironmentManager.Instance.HideOutside();
         }
 
         /// <summary>
@@ -26,7 +28,7 @@ namespace WAAS.Controllers
         {
             if (!other.CompareTag("Player"))
                 return;
-            OutsideTransparencyManager.Instance.ShowOutside();
+            EnvironmentManager.Instance.ShowOutside();
         }
     }
 }

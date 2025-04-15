@@ -3,9 +3,9 @@ using UnityEngine;
 namespace WAAS.Controllers
 {
     /// <summary>
-    /// Class <c>TeleportAreaController</c> is responsible for teleporting the player to a specified exit point when they enter the trigger area.
+    /// Class <c>AreaTeleportController</c> is responsible for teleporting the player to a specified exit point when they enter the trigger area.
     /// </summary>
-    public class TeleportAreaController : MonoBehaviour
+    public class AreaTeleportController : MonoBehaviour
     {
         /// <value>Property <c>targetExitPoint</c> is the transform that represents the exit point for teleportation.</value>
         [SerializeField]

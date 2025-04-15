@@ -4,9 +4,9 @@ using Unity.Cinemachine;
 namespace WAAS.Controllers
 {
     /// <summary>
-    /// Class <c>FocusedAreaController</c> is responsible for controlling the camera focus point
+    /// Class <c>AreaFocusedController</c> is responsible for controlling the camera focus point
     /// </summary>
-    public class FocusedAreaController : MonoBehaviour
+    public class AreaFocusedController : MonoBehaviour
     {
         /// <value>Property <c>virtualCamera</c> is the Cinemachine virtual camera to be controlled.</value>
         [SerializeField]

@@ -5,13 +5,13 @@ using UnityEngine;
 namespace WAAS.Managers
 {
     /// <summary>
-    /// Class <c>OutsideTransparencyManager</c> is responsible for managing the transparency of objects tagged as "Outside".
+    /// Class <c>EnvironmentManager</c> is responsible for managing environment effects.
     /// </summary>
-    public class OutsideTransparencyManager : MonoBehaviour
+    public class EnvironmentManager : MonoBehaviour
     {
 
-        /// <value>Property <c>Instance</c> is the singleton instance of the OutsideTransparencyManager.</value>
-        public static OutsideTransparencyManager Instance { get; private set; }
+        /// <value>Property <c>Instance</c> is the singleton instance of the manager.</value>
+        public static EnvironmentManager Instance { get; private set; }
 
         /// <value>Property <c>outsideLayer</c> is the layer mask for the outside objects.</value>
         [SerializeField] private LayerMask outsideLayer;
