@@ -27,6 +27,8 @@ namespace WAAS.Controllers
         {
             if (other.CompareTag("Enemy") || other.CompareTag("Lightable"))
                 Destroy(gameObject);
+
+            
         }
     }
 }
