@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: AttackSettingsRanged_Default
   m_EditorClassIdentifier: 
   allowAttackWhileMoving: 1
+  lightCost: 0
   timingMode: 0
   attackCooldown: 2
-  lightCost: 5
   projectileSpeed: 10
   projectilePrefab: {fileID: 6186320313909518261, guid: b24de8fef98c07e4d9fe978d0629f910, type: 3}

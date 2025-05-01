@@ -8,7 +8,6 @@ TagManager:
   - Lighter
   - Lightable
   - LightSource
-  - Golem
   layers:
   - Default
   - TransparentFX
