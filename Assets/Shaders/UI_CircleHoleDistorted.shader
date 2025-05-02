@@ -3,7 +3,7 @@
         _Color("Overlay Color", Color) = (0,0,0,0.5)
         _Radius("Base Radius", Range(0,1)) = 0.3
         _BorderTex("Border Texture", 2D) = "white" {}
-        _BorderWidth("Border Width", Range(0,0.5)) = 0.05
+        _BorderWidth("Border Width", Range(0,0.5)) = 0.001
         _RotationSpeed("Rotation Speed", Float) = 1.0
 
         _RingColor0("Red Ring Color", Color) = (1,0,0,1)
@@ -15,6 +15,8 @@
         _GlowStrength("Glow Strength", Float) = 1.0
         _DistortionTex("Distortion Texture (Voronoi)", 2D) = "gray" {}
         _DistortionStrength("Distortion Strength", Float) = 0.05
+
+        _PlayerScreenPos("Player Screen Position", Vector) = (0.5, 0.5, 0, 0)
     }
 
     SubShader {
@@ -40,6 +42,8 @@
             sampler2D _DistortionTex;
             float _DistortionStrength;
 
+            float4 _PlayerScreenPos;
+
             struct appdata { float4 vertex : POSITION; float2 uv : TEXCOORD0; };
             struct v2f    { float4 pos : SV_POSITION; float2 uv : TEXCOORD0; };
 
@@ -63,7 +67,12 @@
             }
 
             fixed4 frag(v2f i) : SV_Target {
-                float2 centered = (i.uv - 0.5) * float2(_ScreenParams.x/_ScreenParams.y, 1);
+                float2 screenUV = i.pos.xy / _ScreenParams.xy;
+                screenUV.y = 1.0 - screenUV.y;
+
+                float2 centered = screenUV - _PlayerScreenPos.xy;
+                centered.x *= _ScreenParams.x / _ScreenParams.y;
+
                 float dist = length(centered);
                 float angle = atan2(centered.y, centered.x);
                 float angle01 = frac((angle + UNITY_PI) / (2 * UNITY_PI));

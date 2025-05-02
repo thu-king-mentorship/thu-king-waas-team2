@@ -66,7 +66,7 @@ Material:
     - _Offset1: 0.1
     - _Offset2: 2.58
     - _Offset3: 1.67
-    - _Radius: 0.075
+    - _Radius: 0.2
     - _RotationSpeed: -2.2
     - _Speed0: 0.5
     - _Speed1: -2.51
@@ -74,11 +74,13 @@ Material:
     - _Speed3: 0.64
     - _VoronoiScale: 11.18
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 0.81960785}
+    - _Color: {r: 0, g: 0, b: 0, a: 0.5}
     - _ColorB: {r: 0, g: 0, b: 1, a: 1}
     - _ColorG: {r: 0, g: 1, b: 0, a: 1}
     - _ColorR: {r: 1, g: 0, b: 0, a: 1}
     - _LightPos: {r: 0.51, g: 0.5, b: 0, a: 0}
+    - _PlayerScreenPos: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _PlayerWorldPos: {r: -3.3770587, g: 5.958252, b: -6.863671, a: 0}
     - _RingColor0: {r: 1, g: 0, b: 0, a: 1}
     - _RingColor1: {r: 0, g: 0, b: 1, a: 1}
     - _RingColor2: {r: 1, g: 1, b: 0, a: 1}
