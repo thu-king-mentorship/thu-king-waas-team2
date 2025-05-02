@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_CircleHoleDistorted
+  m_Shader: {fileID: 4800000, guid: bc65e1769a665e84ba9a72c4c91100f2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BorderTex:
+        m_Texture: {fileID: 2800000, guid: ccf6cd6a19b0c5e4eb56fad7a0862ae8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: -9.35, y: 0}
+    - _BorderTex0:
+        m_Texture: {fileID: 2800000, guid: ccf6cd6a19b0c5e4eb56fad7a0862ae8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BorderTex1:
+        m_Texture: {fileID: 2800000, guid: ccf6cd6a19b0c5e4eb56fad7a0862ae8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BorderTex2:
+        m_Texture: {fileID: 2800000, guid: ccf6cd6a19b0c5e4eb56fad7a0862ae8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BorderTex3:
+        m_Texture: {fileID: 2800000, guid: ccf6cd6a19b0c5e4eb56fad7a0862ae8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: -7.73, y: 1}
+        m_Offset: {x: 1.5, y: 0}
+    - _EdgeTex:
+        m_Texture: {fileID: 2800000, guid: ccf6cd6a19b0c5e4eb56fad7a0862ae8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ccf6cd6a19b0c5e4eb56fad7a0862ae8, type: 3}
+        m_Scale: {x: -4.27, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BorderWidth: 0.001
+    - _DistortionAmt: -26.36
+    - _DistortionStrength: -0.06
+    - _EdgeWidth: 0.05
+    - _GlowStrength: 7.13
+    - _Offset0: 0
+    - _Offset1: 0.1
+    - _Offset2: 2.58
+    - _Offset3: 1.67
+    - _Radius: 0.075
+    - _RotationSpeed: -2.2
+    - _Speed0: 0.5
+    - _Speed1: -2.51
+    - _Speed2: -1.8
+    - _Speed3: 0.64
+    - _VoronoiScale: 11.18
+    m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 0.81960785}
+    - _ColorB: {r: 0, g: 0, b: 1, a: 1}
+    - _ColorG: {r: 0, g: 1, b: 0, a: 1}
+    - _ColorR: {r: 1, g: 0, b: 0, a: 1}
+    - _LightPos: {r: 0.51, g: 0.5, b: 0, a: 0}
+    - _RingColor0: {r: 1, g: 0, b: 0, a: 1}
+    - _RingColor1: {r: 0, g: 0, b: 1, a: 1}
+    - _RingColor2: {r: 1, g: 1, b: 0, a: 1}
+    - _RingColor3: {r: 0, g: 1, b: 0, a: 1}
+    - _RotationOffsets: {r: -6.84, g: 6.3, b: 0.5, a: 0.75}
+    - _TimeOffsets: {r: 0.57, g: 1.79, b: -0.09, a: 1.87}
+    - _VoronoiOffset: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
