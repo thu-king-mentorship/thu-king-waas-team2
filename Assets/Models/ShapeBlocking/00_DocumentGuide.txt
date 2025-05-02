@@ -1,0 +1,5 @@
+B -> Building
+L -> Large Piece
+M -> Medium Piece
+S -> Small Piece
+W -> Wall

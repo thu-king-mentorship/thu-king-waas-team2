@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: LightPath
-  m_Shader: {fileID: -6465566751694194690, guid: f1be497d91df16e4ebf02dc83fb5cd2c, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 239b2864c5d8aca42b05695d8682455d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -56,6 +56,6 @@ Material:
     - _QueueOffset: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 0.9647059, b: 0.5411765, a: 1}
-    - _FresnelColor: {r: 15.75518, g: 16, b: 0, a: 0}
+    - _FresnelColor: {r: 23.601881, g: 23.96863, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
