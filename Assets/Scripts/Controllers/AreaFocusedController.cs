@@ -1,5 +1,6 @@
 using UnityEngine;
 using Unity.Cinemachine;
+using WAAS.Managers;
 
 namespace WAAS.Controllers
 {
@@ -16,19 +17,15 @@ namespace WAAS.Controllers
         [SerializeField]
         private Transform focusPoint;
 
-        /// <value>Property <c>player</c> is the transform of the player.</value>
-        private Transform _player;
-
         /// <summary>
         /// Method <c>OnTriggerEnter</c> is called when the collider other enters the trigger.
         /// </summary>
         /// <param name="other">The collider that entered the trigger.</param>
         private void OnTriggerEnter(Collider other)
         {
-            if (!other.CompareTag("Player"))
+            if (!other.CompareTag("Player") || focusPoint == null)
                 return;
-            virtualCamera.Follow = focusPoint;
-            _player = other.transform;
+            CameraFollowManager.Instance.SetFollowTarget(focusPoint);
         }
 
         /// <summary>
@@ -39,8 +36,7 @@ namespace WAAS.Controllers
         {
             if (!other.CompareTag("Player"))
                 return;
-            virtualCamera.Follow = _player;
-            _player = null;
+            CameraFollowManager.Instance.SetFollowTarget(other.transform);
         }
     }
 }
