@@ -4291,7 +4291,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72.3
+  m_fontSize: 87.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -13243,7 +13243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0f9b5c13f449154b95fd54597d57e87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  virtualCamera: {fileID: 1021043654}
+  virtualCamera: {fileID: 0}
   focusPoint: {fileID: 249229898}
 --- !u!65 &1213221024
 BoxCollider:
