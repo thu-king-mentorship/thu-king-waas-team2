@@ -57,7 +57,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BorderWidth: 0.001
+    - _BorderWidth: 0.002
     - _DistortionAmt: -26.36
     - _DistortionStrength: -0.06
     - _EdgeWidth: 0.05
@@ -74,7 +74,7 @@ Material:
     - _Speed3: 0.64
     - _VoronoiScale: 11.18
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 0.5}
+    - _Color: {r: 0.17478287, g: 0.110137075, b: 0.31132078, a: 0.8784314}
     - _ColorB: {r: 0, g: 0, b: 1, a: 1}
     - _ColorG: {r: 0, g: 1, b: 0, a: 1}
     - _ColorR: {r: 1, g: 0, b: 0, a: 1}
