@@ -170,7 +170,6 @@ GameObject:
   - component: {fileID: 5725426474118143728}
   - component: {fileID: 4817034315764638875}
   - component: {fileID: 6336893178702787733}
-  - component: {fileID: 6381188195595178233}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -310,20 +309,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxLight: 100
---- !u!114 &6381188195595178233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3969702106984249869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d5a0f8f76ec5f848b9b2d9e54c3bae0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  overlayMaterial: {fileID: 2100000, guid: a685254fc5abd104bb7dea349c42df57, type: 2}
-  offset: 0.1
 --- !u!1 &5847118444988932732
 GameObject:
   m_ObjectHideFlags: 0

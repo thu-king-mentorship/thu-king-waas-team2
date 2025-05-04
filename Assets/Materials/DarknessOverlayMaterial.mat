@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UI_CircleHoleDistorted
+  m_Name: DarknessOverlayMaterial
   m_Shader: {fileID: 4800000, guid: bc65e1769a665e84ba9a72c4c91100f2, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -49,6 +49,10 @@ Material:
         m_Offset: {x: 1.5, y: 0}
     - _EdgeTex:
         m_Texture: {fileID: 2800000, guid: ccf6cd6a19b0c5e4eb56fad7a0862ae8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightMaskTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:

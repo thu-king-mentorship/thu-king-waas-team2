@@ -349,6 +349,7 @@ GameObject:
   - component: {fileID: 8609548281249565420}
   - component: {fileID: 7461132602749849411}
   - component: {fileID: 6037176842874180283}
+  - component: {fileID: 7650033426420852082}
   m_Layer: 21
   m_Name: Lightable
   m_TagString: Lightable
@@ -431,3 +432,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightSource: {fileID: 4234761977147867698}
+  lightPath: {fileID: 0}
+--- !u!114 &7650033426420852082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6441552235486513168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ab9d0ad930652647b7c53c7b72ae71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size: 200
+  color: {r: 1, g: 1, b: 1, a: 1}
+  intensity: 1
+  offset: {x: 0, y: 0.5, z: 0}

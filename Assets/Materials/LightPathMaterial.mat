@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LightPath
+  m_Name: LightPathMaterial
   m_Shader: {fileID: -6465566751694194690, guid: 239b2864c5d8aca42b05695d8682455d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

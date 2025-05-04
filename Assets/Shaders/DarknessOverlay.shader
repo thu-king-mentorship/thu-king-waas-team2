@@ -17,6 +17,8 @@
         _DistortionStrength("Distortion Strength", Float) = 0.05
 
         _PlayerScreenPos("Player Screen Position", Vector) = (0.5, 0.5, 0, 0)
+        
+        _LightMaskTex("Light Mask", 2D) = "black" {}
     }
 
     SubShader {
@@ -44,6 +46,8 @@
 
             float4 _PlayerScreenPos;
 
+            sampler2D _LightMaskTex;
+
             struct appdata { float4 vertex : POSITION; float2 uv : TEXCOORD0; };
             struct v2f    { float4 pos : SV_POSITION; float2 uv : TEXCOORD0; };
 
@@ -70,14 +74,17 @@
                 float2 screenUV = i.pos.xy / _ScreenParams.xy;
                 screenUV.y = 1.0 - screenUV.y;
 
-                float2 centered = screenUV - _PlayerScreenPos.xy;
-                centered.x *= _ScreenParams.x / _ScreenParams.y;
+                // Sample light mask texture
+                float lightValue = tex2D(_LightMaskTex, screenUV).r;
 
+                // Calculate distance from player center
+                float2 centered = screenUV - _PlayerScreenPos.xy;
+                centered.x *= _ScreenParams.x / _ScreenParams.y; // maintain aspect ratio
                 float dist = length(centered);
                 float angle = atan2(centered.y, centered.x);
                 float angle01 = frac((angle + UNITY_PI) / (2 * UNITY_PI));
 
-                // Dynamic radius via voronoi distortion
+                // Voronoi distortion
                 float d = tex2D(_DistortionTex, float2(angle01, 0.5)).r;
                 float dynamicRadius = _Radius + (d - 0.5) * 2 * _DistortionStrength;
                 float innerBase = dynamicRadius - _BorderWidth;
@@ -86,10 +93,10 @@
                 bool inRing = false;
                 fixed4 ringColors[4] = {_RingColor0, _RingColor1, _RingColor2, _RingColor3};
 
-                for(int idx=0; idx<4; idx++) {
+                for (int idx = 0; idx < 4; idx++) {
                     float inner = innerBase + idx * _BorderWidth;
                     float outer = inner + _BorderWidth;
-                    if(dist > inner && dist < outer) {
+                    if (dist > inner && dist < outer) {
                         float t = (dist - inner) / _BorderWidth;
                         float u = frac(angle01 + _Time.y * _RotationSpeed + _RotationOffsets[idx]);
                         float3 sample = tex2D(_BorderTex, float2(u, t)).rgb;
@@ -98,16 +105,26 @@
                     }
                 }
 
-                if(dist < innerBase) return fixed4(0,0,0,0);
-                if(inRing) {
-                    float glow = dot(ringColor, float3(0.3,0.59,0.11)) * _GlowStrength;
+                // Inside player's ring center
+                if (dist < innerBase) {
+                    // Fully transparent (no overlay), ignore mask
+                    return fixed4(0, 0, 0, 0);
+                }
+
+                // Inside player's glowing ring
+                if (inRing) {
+                    float glow = dot(ringColor, float3(0.3, 0.59, 0.11)) * _GlowStrength;
+                    // Keep glow modulated by mask so it's hidden if lightValue is 0
                     return fixed4(ringColor * glow, glow);
                 }
-                if(dist < dynamicRadius + _BorderWidth * 2) {
-                    // Return overlay with its alpha, allowing background visibility
-                    return fixed4(_Color.rgb, _Color.a);
+
+                // Between player's ring and edge — partial overlay, modulated
+                if (dist < dynamicRadius + _BorderWidth * 2) {
+                    return fixed4(_Color.rgb, _Color.a * (1.0 - lightValue));
                 }
-                return fixed4(_Color.rgb, _Color.a);
+
+                // Outside everything — darkness depends only on light mask
+                return fixed4(_Color.rgb, _Color.a * (1.0 - lightValue));
             }
             ENDCG
         }
