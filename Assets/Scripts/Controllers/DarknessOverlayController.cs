@@ -25,11 +25,8 @@ namespace WAAS.Controllers
 
         /// <value>Property <c>_material</c> is the material used for the darkness overlay.</value>
         private Material _material;
-
-        /// <value>Property <c>_originalPlayerScreenPos</c> is the original player screen position.</value>
-        private static readonly int LightMaskTex = Shader.PropertyToID("_LightMaskTex");
         
-        /// <value>Property <c>_originalPlayerScreenPos</c> is the original player screen position.</value>
+        /// <value>Property <c>_PlayerScreenPos</c> is the property ID for the player screen position.</value>
         private static readonly int PlayerScreenPos = Shader.PropertyToID("_PlayerScreenPos");
 
         /// <value>Property <c>_originalPlayerScreenPos</c> is the original player screen position.</value>
@@ -50,12 +47,6 @@ namespace WAAS.Controllers
         /// </summary>
         private void LateUpdate()
         {
-            if (_material == null || lightMaskRenderer == null || playerTransform == null)
-                return;
-
-            // Update light mask
-            _material.SetTexture(LightMaskTex, lightMaskRenderer.LightMask);
-
             // Update player screen position
             var viewportPos = Camera.main.WorldToViewportPoint(playerTransform.position);
             viewportPos.y += offset;

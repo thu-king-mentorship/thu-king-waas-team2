@@ -9,14 +9,15 @@ namespace WAAS.Renderers
     public class LightMaskData : MonoBehaviour
     {
         /// <value>Property <c>size</c> is the size of the light source.</value>
-        public float size = 200f;
+        [Range(0.0f, 1000.0f)]
+        public float size = 200.0f;
         
         /// <value>Property <c>intensity</c> is the intensity of the light source.</value>
         public Color color = Color.white;
         
         /// <value>Property <c>intensity</c> is the intensity of the light source.</value>
-        [Range(0f, 2f)]
-        public float intensity = 1f;
+        [Range(0.0f, 2.0f)]
+        public float intensity = 1.0f;
         
         /// <value>Property <c>offset</c> is the offset for the light source.</value>
         public Vector3 offset = Vector3.zero;
